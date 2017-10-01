@@ -1,0 +1,1538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_ZRE1kKaEEeeyyPT5uA-eoA">
+  <modelElement href="LifeRayStream.uml#_YzVJo6aEEeeyyPT5uA-eoA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_aJlK4KaEEeeyyPT5uA-eoA" source="_aJlx8KaEEeeyyPT5uA-eoA">
+    <modelElement href="LifeRayStream.uml#_ZEqKMqaEEeeyyPT5uA-eoA"/>
+    <visualProperties xmi:id="_aLCjcaaEEeeyyPT5uA-eoA" position="570.0,570.0"/>
+    <stereotypes xmi:id="_aJlK4aaEEeeyyPT5uA-eoA" name="Reference">
+      <modelElement href="LifeRayStream.uml#_ZEqxQKaEEeeyyPT5uA-eoA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_aJlK4qaEEeeyyPT5uA-eoA" text=""/>
+    <sourceRole xmi:id="_aJlK46aEEeeyyPT5uA-eoA" aggregationKind="NONE" name="">
+      <modelElement href="LifeRayStream.uml#_ZEqKM6aEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aJlK5KaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aJlK5aaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_aJlK5qaEEeeyyPT5uA-eoA" aggregationKind="NONE" name="appContext" navigable="true">
+      <modelElement href="LifeRayStream.uml#_ZDOm0KaEEeeyyPT5uA-eoA"/>
+      <stereotypes xmi:id="_wA1yEKaEEeeyyPT5uA-eoA" name="LegacyStyledElement">
+        <modelElement href="LifeRayStream.uml#_ZDPN4KaEEeeyyPT5uA-eoA"/>
+      </stereotypes>
+      <visibility xmi:id="_aJlK56aEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aJlK6KaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_aJz0YKaEEeeyyPT5uA-eoA" source="_aJ1CiaaEEeeyyPT5uA-eoA">
+    <modelElement href="LifeRayStream.uml#_ZEqxQaaEEeeyyPT5uA-eoA"/>
+    <visualProperties xmi:id="_aLCjcqaEEeeyyPT5uA-eoA" position="590.0,590.0"/>
+    <stereotypes xmi:id="_aJz0YaaEEeeyyPT5uA-eoA" name="Reference">
+      <modelElement href="LifeRayStream.uml#_ZErYUKaEEeeyyPT5uA-eoA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_aJz0YqaEEeeyyPT5uA-eoA" text=""/>
+    <sourceRole xmi:id="_aJz0Y6aEEeeyyPT5uA-eoA" aggregationKind="NONE" name="">
+      <modelElement href="LifeRayStream.uml#_ZEqxQqaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aJz0ZKaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aJz0ZaaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_aJz0ZqaEEeeyyPT5uA-eoA" aggregationKind="NONE" name="collector" navigable="true">
+      <modelElement href="LifeRayStream.uml#_ZDQcAaaEEeeyyPT5uA-eoA"/>
+      <stereotypes xmi:id="_wA2ZIKaEEeeyyPT5uA-eoA" name="LegacyStyledElement">
+        <modelElement href="LifeRayStream.uml#_ZDRDEKaEEeeyyPT5uA-eoA"/>
+      </stereotypes>
+      <visibility xmi:id="_aJz0Z6aEEeeyyPT5uA-eoA" label="-"/>
+      <cardinality xmi:id="_aJz0aKaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_aJ0bcKaEEeeyyPT5uA-eoA" source="_aJ1CiaaEEeeyyPT5uA-eoA">
+    <modelElement href="LifeRayStream.uml#_ZErYUaaEEeeyyPT5uA-eoA"/>
+    <visualProperties xmi:id="_aLCjc6aEEeeyyPT5uA-eoA" position="610.0,610.0"/>
+    <stereotypes xmi:id="_aJ0bcaaEEeeyyPT5uA-eoA" name="Reference">
+      <modelElement href="LifeRayStream.uml#_ZEr_YKaEEeeyyPT5uA-eoA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_aJ0bcqaEEeeyyPT5uA-eoA" text=""/>
+    <sourceRole xmi:id="_aJ0bc6aEEeeyyPT5uA-eoA" aggregationKind="NONE" name="">
+      <modelElement href="LifeRayStream.uml#_ZErYUqaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aJ0bdKaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aJ0bdaaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_aJ0bdqaEEeeyyPT5uA-eoA" aggregationKind="NONE" name="oos" navigable="true">
+      <modelElement href="LifeRayStream.uml#_ZDRqIaaEEeeyyPT5uA-eoA"/>
+      <stereotypes xmi:id="_wA3AMKaEEeeyyPT5uA-eoA" name="LegacyStyledElement">
+        <modelElement href="LifeRayStream.uml#_ZDRqIqaEEeeyyPT5uA-eoA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_wA3AMaaEEeeyyPT5uA-eoA" name="Annotations">
+        <modelElement href="LifeRayStream.uml#_ZDSRMKaEEeeyyPT5uA-eoA"/>
+      </stereotypes>
+      <visibility xmi:id="_aJ0bd6aEEeeyyPT5uA-eoA" label="-"/>
+      <cardinality xmi:id="_aJ0beKaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_aJ1CgKaEEeeyyPT5uA-eoA" source="_aJ1CiaaEEeeyyPT5uA-eoA">
+    <modelElement href="LifeRayStream.uml#_ZEr_YaaEEeeyyPT5uA-eoA"/>
+    <visualProperties xmi:id="_aLCjdKaEEeeyyPT5uA-eoA" position="630.0,630.0"/>
+    <stereotypes xmi:id="_aJ1CgaaEEeeyyPT5uA-eoA" name="Reference">
+      <modelElement href="LifeRayStream.uml#_ZEsmcKaEEeeyyPT5uA-eoA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_aJ1CgqaEEeeyyPT5uA-eoA" text=""/>
+    <sourceRole xmi:id="_aJ1Cg6aEEeeyyPT5uA-eoA" aggregationKind="NONE" name="">
+      <modelElement href="LifeRayStream.uml#_ZEr_YqaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aJ1ChKaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aJ1ChaaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_aJ1ChqaEEeeyyPT5uA-eoA" aggregationKind="NONE" name="br" navigable="true">
+      <modelElement href="LifeRayStream.uml#_ZDSRM6aEEeeyyPT5uA-eoA"/>
+      <stereotypes xmi:id="_wA3AMqaEEeeyyPT5uA-eoA" name="LegacyStyledElement">
+        <modelElement href="LifeRayStream.uml#_ZDS4QKaEEeeyyPT5uA-eoA"/>
+      </stereotypes>
+      <visibility xmi:id="_aJ1Ch6aEEeeyyPT5uA-eoA" label="-"/>
+      <cardinality xmi:id="_aJ1CiKaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_aJ-zgKaEEeeyyPT5uA-eoA" source="_aKLAwKaEEeeyyPT5uA-eoA">
+    <modelElement href="LifeRayStream.uml#_ZEsmcaaEEeeyyPT5uA-eoA"/>
+    <visualProperties xmi:id="_aLCjdaaEEeeyyPT5uA-eoA" position="650.0,650.0"/>
+    <stereotypes xmi:id="_aKBPwKaEEeeyyPT5uA-eoA" name="Reference">
+      <modelElement href="LifeRayStream.uml#_ZEsmc6aEEeeyyPT5uA-eoA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_aKAosKaEEeeyyPT5uA-eoA" text=""/>
+    <sourceRole xmi:id="_aKAosaaEEeeyyPT5uA-eoA" aggregationKind="NONE" name="">
+      <modelElement href="LifeRayStream.uml#_ZEsmcqaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aKB20aaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKB20KaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_aKAosqaEEeeyyPT5uA-eoA" aggregationKind="NONE" name="collector" navigable="true">
+      <modelElement href="LifeRayStream.uml#_ZDTfUKaEEeeyyPT5uA-eoA"/>
+      <stereotypes xmi:id="_wA3nQKaEEeeyyPT5uA-eoA" name="LegacyStyledElement">
+        <modelElement href="LifeRayStream.uml#_ZDUGYKaEEeeyyPT5uA-eoA"/>
+      </stereotypes>
+      <visibility xmi:id="_aKB206aEEeeyyPT5uA-eoA" label="-"/>
+      <cardinality xmi:id="_aKB20qaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_aJ_akKaEEeeyyPT5uA-eoA" source="_aKLAwKaEEeeyyPT5uA-eoA">
+    <modelElement href="LifeRayStream.uml#_ZEtNgKaEEeeyyPT5uA-eoA"/>
+    <visualProperties xmi:id="_aLCjdqaEEeeyyPT5uA-eoA" position="670.0,670.0"/>
+    <stereotypes xmi:id="_aKBPxKaEEeeyyPT5uA-eoA" name="Reference">
+      <modelElement href="LifeRayStream.uml#_ZEtNgqaEEeeyyPT5uA-eoA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_aKBPwaaEEeeyyPT5uA-eoA" text=""/>
+    <sourceRole xmi:id="_aKBPwqaEEeeyyPT5uA-eoA" aggregationKind="NONE" name="">
+      <modelElement href="LifeRayStream.uml#_ZEtNgaaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aKCd4aaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKCd4KaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_aKBPw6aEEeeyyPT5uA-eoA" aggregationKind="NONE" name="oos" navigable="true">
+      <modelElement href="LifeRayStream.uml#_ZDUtcaaEEeeyyPT5uA-eoA"/>
+      <stereotypes xmi:id="_wA4OUKaEEeeyyPT5uA-eoA" name="LegacyStyledElement">
+        <modelElement href="LifeRayStream.uml#_ZDVUgKaEEeeyyPT5uA-eoA"/>
+      </stereotypes>
+      <visibility xmi:id="_aKFhMKaEEeeyyPT5uA-eoA" label="-"/>
+      <cardinality xmi:id="_aKDE8KaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_aJ_akaaEEeeyyPT5uA-eoA" source="_aKLAwKaEEeeyyPT5uA-eoA">
+    <modelElement href="LifeRayStream.uml#_ZEt0kKaEEeeyyPT5uA-eoA"/>
+    <visualProperties xmi:id="_aLCjd6aEEeeyyPT5uA-eoA" position="690.0,690.0"/>
+    <stereotypes xmi:id="_aKBPyKaEEeeyyPT5uA-eoA" name="Reference">
+      <modelElement href="LifeRayStream.uml#_ZEt0kqaEEeeyyPT5uA-eoA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_aKBPxaaEEeeyyPT5uA-eoA" text=""/>
+    <sourceRole xmi:id="_aKBPxqaEEeeyyPT5uA-eoA" aggregationKind="NONE" name="">
+      <modelElement href="LifeRayStream.uml#_ZEt0kaaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aKGIQqaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKGIQaaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_aKBPx6aEEeeyyPT5uA-eoA" aggregationKind="NONE" name="br" navigable="true">
+      <modelElement href="LifeRayStream.uml#_ZDVUgaaEEeeyyPT5uA-eoA"/>
+      <stereotypes xmi:id="_wA4OUaaEEeeyyPT5uA-eoA" name="LegacyStyledElement">
+        <modelElement href="LifeRayStream.uml#_ZDV7kKaEEeeyyPT5uA-eoA"/>
+      </stereotypes>
+      <visibility xmi:id="_aKGvUaaEEeeyyPT5uA-eoA" label="-"/>
+      <cardinality xmi:id="_aKGvUKaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_aKTjoKaEEeeyyPT5uA-eoA" target="_aKUKwKaEEeeyyPT5uA-eoA">
+    <modelElement href="LifeRayStream.uml#_ZELpEKaEEeeyyPT5uA-eoA"/>
+    <visualProperties xmi:id="_aLAuQKaEEeeyyPT5uA-eoA" position="290.0,290.0"/>
+    <nameVisual xmi:id="_aKTjoaaEEeeyyPT5uA-eoA" text=""/>
+    <sourceRole xmi:id="_aKTjoqaEEeeyyPT5uA-eoA" aggregationKind="NONE" name="collector" navigable="true">
+      <modelElement href="LifeRayStream.uml#_ZDXJsKaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aKTjo6aEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKTjpKaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_aKTjpaaEEeeyyPT5uA-eoA" aggregationKind="NONE" name="">
+      <modelElement href="LifeRayStream.uml#_ZELpEaaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aKTjpqaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKTjp6aEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_aKUKsKaEEeeyyPT5uA-eoA" target="_aKUKwKaEEeeyyPT5uA-eoA">
+    <modelElement href="LifeRayStream.uml#_ZELpEqaEEeeyyPT5uA-eoA"/>
+    <visualProperties xmi:id="_aLAuQaaEEeeyyPT5uA-eoA" position="310.0,310.0"/>
+    <nameVisual xmi:id="_aKUKsaaEEeeyyPT5uA-eoA" text=""/>
+    <sourceRole xmi:id="_aKUKsqaEEeeyyPT5uA-eoA" aggregationKind="NONE" name="values" navigable="true">
+      <modelElement href="LifeRayStream.uml#_ZDXJsqaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aKUKs6aEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKUKtKaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_aKUKtaaEEeeyyPT5uA-eoA" aggregationKind="NONE" name="">
+      <modelElement href="LifeRayStream.uml#_ZELpE6aEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aKUKtqaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKUKt6aEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_aKUKuKaEEeeyyPT5uA-eoA" target="_aKUKwKaEEeeyyPT5uA-eoA">
+    <modelElement href="LifeRayStream.uml#_ZELpFKaEEeeyyPT5uA-eoA"/>
+    <visualProperties xmi:id="_aLBVUKaEEeeyyPT5uA-eoA" position="330.0,330.0"/>
+    <nameVisual xmi:id="_aKUKuaaEEeeyyPT5uA-eoA" text=""/>
+    <sourceRole xmi:id="_aKUKuqaEEeeyyPT5uA-eoA" aggregationKind="NONE" name="lt" navigable="true">
+      <modelElement href="LifeRayStream.uml#_ZDXwwaaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aKUKu6aEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKUKvKaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_aKUKvaaEEeeyyPT5uA-eoA" aggregationKind="NONE" name="">
+      <modelElement href="LifeRayStream.uml#_ZEMQIKaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aKUKvqaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKUKv6aEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_aKZDMKaEEeeyyPT5uA-eoA" sourceAnchor="0.0,36.0" targetAnchor="169.0,71.0" dashed="true" superClass="_aJtGsKaEEeeyyPT5uA-eoA" subClass="_aKaRUKaEEeeyyPT5uA-eoA">
+    <modelElement href="LifeRayStream.uml#_Y_yRQKaEEeeyyPT5uA-eoA"/>
+    <bendpoints xmi:id="_aaHhQqaEEeeyyPT5uA-eoA" sourceX="-233" targetY="91"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_aKZDMqaEEeeyyPT5uA-eoA" targetItem="_aKaRUKaEEeeyyPT5uA-eoA" sourceItem="_aKZDMaaEEeeyyPT5uA-eoA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_aKctkKaEEeeyyPT5uA-eoA" sourceAnchor="0.0,27.0" targetAnchor="184.0,71.0" dashed="true" superClass="_aJu74KaEEeeyyPT5uA-eoA" subClass="_aKd7sKaEEeeyyPT5uA-eoA">
+    <modelElement href="LifeRayStream.uml#_Y_zfYaaEEeeyyPT5uA-eoA"/>
+    <bendpoints xmi:id="_aaIIUKaEEeeyyPT5uA-eoA" sourceX="-309" targetY="82"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_aKdUoaaEEeeyyPT5uA-eoA" targetItem="_aKd7sKaEEeeyyPT5uA-eoA" sourceItem="_aKdUoKaEEeeyyPT5uA-eoA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_aKgX8KaEEeeyyPT5uA-eoA" sourceAnchor="0.0,106.0" targetAnchor="47.0,289.0" target="_aKmemKaEEeeyyPT5uA-eoA" source="_aKUKwKaEEeeyyPT5uA-eoA">
+    <modelElement href="LifeRayStream.uml#_ZEM3MqaEEeeyyPT5uA-eoA"/>
+    <visualProperties xmi:id="_aLBVUqaEEeeyyPT5uA-eoA" position="370.0,370.0"/>
+    <bendpoints xmi:id="_aaHhQKaEEeeyyPT5uA-eoA" sourceX="-499" targetY="789"/>
+    <nameVisual xmi:id="_aKiNIKaEEeeyyPT5uA-eoA" text="">
+      <visualProperties xmi:id="_aaLysKaEEeeyyPT5uA-eoA" position="1.5,-402.7500000000001"/>
+    </nameVisual>
+    <sourceRole xmi:id="_aKiNIaaEEeeyyPT5uA-eoA" aggregationKind="NONE" name="urlspout" navigable="true">
+      <modelElement href="LifeRayStream.uml#_ZDY-4KaEEeeyyPT5uA-eoA"/>
+      <visualProperties xmi:id="_aaLLoaaEEeeyyPT5uA-eoA" position="-60.5,2.5"/>
+      <visibility xmi:id="_aKkCUaaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKkCUKaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_aKiNIqaEEeeyyPT5uA-eoA" aggregationKind="NONE" name="">
+      <modelElement href="LifeRayStream.uml#_ZEM3M6aEEeeyyPT5uA-eoA"/>
+      <visualProperties xmi:id="_aaLysaaEEeeyyPT5uA-eoA" position="1.4999999999995453,1.0000000000002274"/>
+      <visibility xmi:id="_aKkCU6aEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKkCUqaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_aKg_AKaEEeeyyPT5uA-eoA" sourceAnchor="0.0,125.0" targetAnchor="226.0,289.0" target="_aKmemKaEEeeyyPT5uA-eoA" source="_aJ1CiaaEEeeyyPT5uA-eoA">
+    <modelElement href="LifeRayStream.uml#_ZENeQKaEEeeyyPT5uA-eoA"/>
+    <visualProperties xmi:id="_aLBVU6aEEeeyyPT5uA-eoA" position="390.0,390.0"/>
+    <bendpoints xmi:id="_aaGTIKaEEeeyyPT5uA-eoA" sourceX="-329" targetY="180"/>
+    <nameVisual xmi:id="_aKiNI6aEEeeyyPT5uA-eoA" text="">
+      <visualProperties xmi:id="_aaJWcKaEEeeyyPT5uA-eoA" position="0.6666666666667425,-57.49999999999994"/>
+    </nameVisual>
+    <sourceRole xmi:id="_aKiNJKaEEeeyyPT5uA-eoA" aggregationKind="NONE" name="urlbolt" navigable="true">
+      <modelElement href="LifeRayStream.uml#_ZDY-4aaEEeeyyPT5uA-eoA"/>
+      <visualProperties xmi:id="_aaIvYaaEEeeyyPT5uA-eoA" position="-51.5,2.5"/>
+      <visibility xmi:id="_aKkCVaaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKkCVKaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_aKiNJaaEEeeyyPT5uA-eoA" aggregationKind="NONE" name="">
+      <modelElement href="LifeRayStream.uml#_ZENeQaaEEeeyyPT5uA-eoA"/>
+      <visualProperties xmi:id="_aaJWcaaEEeeyyPT5uA-eoA" position="1.6666666666666856,1.0000000000001137"/>
+      <visibility xmi:id="_aKkpYaaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKkpYKaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_aKhmEKaEEeeyyPT5uA-eoA" sourceAnchor="100.0,0.0" targetAnchor="196.0,289.0" target="_aKmemKaEEeeyyPT5uA-eoA" source="_aKd7sKaEEeeyyPT5uA-eoA">
+    <modelElement href="LifeRayStream.uml#_ZEOFUKaEEeeyyPT5uA-eoA"/>
+    <visualProperties xmi:id="_aLB8YqaEEeeyyPT5uA-eoA" position="450.0,450.0"/>
+    <nameVisual xmi:id="_aKiNJqaEEeeyyPT5uA-eoA" text="">
+      <visualProperties xmi:id="_aaOO8KaEEeeyyPT5uA-eoA" position="1.6666666666667425,-8.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_aKi0MKaEEeeyyPT5uA-eoA" aggregationKind="NONE" name="spoutbuilder" navigable="true">
+      <modelElement href="LifeRayStream.uml#_ZDbbIKaEEeeyyPT5uA-eoA"/>
+      <visualProperties xmi:id="_aaNn4aaEEeeyyPT5uA-eoA" position="-84.33333333333326,-46.0"/>
+      <visibility xmi:id="_aKkpY6aEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKkpYqaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_aKi0MaaEEeeyyPT5uA-eoA" aggregationKind="NONE" name="">
+      <modelElement href="LifeRayStream.uml#_ZEOFUaaEEeeyyPT5uA-eoA"/>
+      <visualProperties xmi:id="_aaOO8aaEEeeyyPT5uA-eoA" position="1.6666666666667993,1.0"/>
+      <visibility xmi:id="_aKkpZaaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKkpZKaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_aKhmEaaEEeeyyPT5uA-eoA" sourceAnchor="0.0,144.0" targetAnchor="181.0,71.0" target="_aKaRUKaEEeeyyPT5uA-eoA" source="_aKmemKaEEeeyyPT5uA-eoA">
+    <modelElement href="LifeRayStream.uml#_ZEt0k6aEEeeyyPT5uA-eoA"/>
+    <visualProperties xmi:id="_aLDKgKaEEeeyyPT5uA-eoA" position="710.0,710.0"/>
+    <bendpoints xmi:id="_aaIvYKaEEeeyyPT5uA-eoA" sourceX="-257" targetY="199"/>
+    <stereotypes xmi:id="_aKi0NaaEEeeyyPT5uA-eoA" name="Reference">
+      <modelElement href="LifeRayStream.uml#_ZEuboKaEEeeyyPT5uA-eoA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_aKi0MqaEEeeyyPT5uA-eoA" text="">
+      <visualProperties xmi:id="_aaO2AaaEEeeyyPT5uA-eoA" position="1.6666666666667425,-107.74999999999994"/>
+    </nameVisual>
+    <sourceRole xmi:id="_aKi0M6aEEeeyyPT5uA-eoA" aggregationKind="NONE" name="">
+      <modelElement href="LifeRayStream.uml#_ZEt0lKaEEeeyyPT5uA-eoA"/>
+      <visualProperties xmi:id="_aaO2AKaEEeeyyPT5uA-eoA" position="-16.333333333333258,2.5"/>
+      <visibility xmi:id="_aKkpZ6aEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKkpZqaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_aKi0NKaEEeeyyPT5uA-eoA" aggregationKind="NONE" name="boltbuilder" navigable="true">
+      <modelElement href="LifeRayStream.uml#_ZDdQUKaEEeeyyPT5uA-eoA"/>
+      <visualProperties xmi:id="_aaPdEKaEEeeyyPT5uA-eoA" position="1.6666666666667425,0.9999999999999716"/>
+      <stereotypes xmi:id="_wA6DgKaEEeeyyPT5uA-eoA" name="Generics">
+        <modelElement href="LifeRayStream.uml#_ZDd3YKaEEeeyyPT5uA-eoA"/>
+      </stereotypes>
+      <visibility xmi:id="_aKkpaaaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKkpaKaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_aKl3gKaEEeeyyPT5uA-eoA" target="_aKmemKaEEeeyyPT5uA-eoA">
+    <modelElement href="LifeRayStream.uml#_ZEM3MKaEEeeyyPT5uA-eoA"/>
+    <visualProperties xmi:id="_aLBVUaaEEeeyyPT5uA-eoA" position="350.0,350.0"/>
+    <nameVisual xmi:id="_aKl3gaaEEeeyyPT5uA-eoA" text=""/>
+    <sourceRole xmi:id="_aKl3gqaEEeeyyPT5uA-eoA" aggregationKind="NONE" name="builder" navigable="true">
+      <modelElement href="LifeRayStream.uml#_ZDYX0KaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aKl3g6aEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKl3hKaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_aKl3haaEEeeyyPT5uA-eoA" aggregationKind="NONE" name="">
+      <modelElement href="LifeRayStream.uml#_ZEM3MaaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aKl3hqaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKl3h6aEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_aKl3iKaEEeeyyPT5uA-eoA" target="_aKmemKaEEeeyyPT5uA-eoA">
+    <modelElement href="LifeRayStream.uml#_ZENeQqaEEeeyyPT5uA-eoA"/>
+    <visualProperties xmi:id="_aLB8YKaEEeeyyPT5uA-eoA" position="410.0,410.0"/>
+    <nameVisual xmi:id="_aKl3iaaEEeeyyPT5uA-eoA" text=""/>
+    <sourceRole xmi:id="_aKl3iqaEEeeyyPT5uA-eoA" aggregationKind="NONE" name="config" navigable="true">
+      <modelElement href="LifeRayStream.uml#_ZDY-4qaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aKl3i6aEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKl3jKaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_aKl3jaaEEeeyyPT5uA-eoA" aggregationKind="NONE" name="">
+      <modelElement href="LifeRayStream.uml#_ZENeQ6aEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aKl3jqaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKl3j6aEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_aKmekKaEEeeyyPT5uA-eoA" target="_aKmemKaEEeeyyPT5uA-eoA">
+    <modelElement href="LifeRayStream.uml#_ZENeRKaEEeeyyPT5uA-eoA"/>
+    <visualProperties xmi:id="_aLB8YaaEEeeyyPT5uA-eoA" position="430.0,430.0"/>
+    <nameVisual xmi:id="_aKmekaaEEeeyyPT5uA-eoA" text=""/>
+    <sourceRole xmi:id="_aKmekqaEEeeyyPT5uA-eoA" aggregationKind="NONE" name="cluster" navigable="true">
+      <modelElement href="LifeRayStream.uml#_ZDZl8KaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aKmek6aEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKmelKaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_aKmelaaEEeeyyPT5uA-eoA" aggregationKind="NONE" name="">
+      <modelElement href="LifeRayStream.uml#_ZENeRaaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aKmelqaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKmel6aEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_aKvogKaEEeeyyPT5uA-eoA" sourceAnchor="548.0,106.0" targetAnchor="256.0,327.0" target="_aK0hAKaEEeeyyPT5uA-eoA" source="_aKUKwKaEEeeyyPT5uA-eoA">
+    <modelElement href="LifeRayStream.uml#_ZEOsYKaEEeeyyPT5uA-eoA"/>
+    <visualProperties xmi:id="_aLB8ZKaEEeeyyPT5uA-eoA" position="490.0,490.0"/>
+    <bendpoints xmi:id="_aaHhQaaEEeeyyPT5uA-eoA" sourceX="316" targetY="789"/>
+    <nameVisual xmi:id="_aKw2oaaEEeeyyPT5uA-eoA" text="">
+      <visualProperties xmi:id="_aaNA0KaEEeeyyPT5uA-eoA" position="-12.999999999999773,-402.7499999999999"/>
+    </nameVisual>
+    <sourceRole xmi:id="_aKw2oqaEEeeyyPT5uA-eoA" aggregationKind="NONE" name="urlspout" navigable="true">
+      <modelElement href="LifeRayStream.uml#_ZDfFgKaEEeeyyPT5uA-eoA"/>
+      <visualProperties xmi:id="_aaMZwKaEEeeyyPT5uA-eoA" position="1.5,-46.5"/>
+      <visibility xmi:id="_aKzS4KaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKyr06aEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_aKxdsKaEEeeyyPT5uA-eoA" aggregationKind="NONE" name="">
+      <modelElement href="LifeRayStream.uml#_ZEOsYaaEEeeyyPT5uA-eoA"/>
+      <visualProperties xmi:id="_aaNn4KaEEeeyyPT5uA-eoA" position="2.0000000000001137,1.0000000000001137"/>
+      <visibility xmi:id="_aKzS4qaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKzS4aaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_aKwPkKaEEeeyyPT5uA-eoA" sourceAnchor="530.0,125.0" targetAnchor="226.0,327.0" target="_aK0hAKaEEeeyyPT5uA-eoA" source="_aJ1CiaaEEeeyyPT5uA-eoA">
+    <modelElement href="LifeRayStream.uml#_ZEOsYqaEEeeyyPT5uA-eoA"/>
+    <visualProperties xmi:id="_aLB8ZaaEEeeyyPT5uA-eoA" position="510.0,510.0"/>
+    <bendpoints xmi:id="_aaG6MKaEEeeyyPT5uA-eoA" sourceX="295" targetY="180"/>
+    <nameVisual xmi:id="_aKxdsaaEEeeyyPT5uA-eoA" text="">
+      <visualProperties xmi:id="_aaKkkKaEEeeyyPT5uA-eoA" position="-12.0,-57.49999999999994"/>
+    </nameVisual>
+    <sourceRole xmi:id="_aKxdsqaEEeeyyPT5uA-eoA" aggregationKind="NONE" name="urlbolt" navigable="true">
+      <modelElement href="LifeRayStream.uml#_ZDfFgaaEEeeyyPT5uA-eoA"/>
+      <visualProperties xmi:id="_aaJ9gKaEEeeyyPT5uA-eoA" position="1.5,-46.5"/>
+      <visibility xmi:id="_aKzS5KaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKzS46aEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_aKxds6aEEeeyyPT5uA-eoA" aggregationKind="NONE" name="">
+      <modelElement href="LifeRayStream.uml#_ZEOsY6aEEeeyyPT5uA-eoA"/>
+      <visualProperties xmi:id="_aaLLoKaEEeeyyPT5uA-eoA" position="2.0,1.0"/>
+      <visibility xmi:id="_aKzS5qaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKzS5aaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_aKw2oKaEEeeyyPT5uA-eoA" target="_aK0hAKaEEeeyyPT5uA-eoA">
+    <modelElement href="LifeRayStream.uml#_ZEOFUqaEEeeyyPT5uA-eoA"/>
+    <visualProperties xmi:id="_aLB8Y6aEEeeyyPT5uA-eoA" position="470.0,470.0"/>
+    <nameVisual xmi:id="_aKyr0KaEEeeyyPT5uA-eoA" text=""/>
+    <sourceRole xmi:id="_aKyr0aaEEeeyyPT5uA-eoA" aggregationKind="NONE" name="builder" navigable="true">
+      <modelElement href="LifeRayStream.uml#_ZDeecKaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aKz58aaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKz58KaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_aKyr0qaEEeeyyPT5uA-eoA" aggregationKind="NONE" name="">
+      <modelElement href="LifeRayStream.uml#_ZEOFU6aEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aKz586aEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKz58qaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_aKxdtKaEEeeyyPT5uA-eoA" target="_aK0hAKaEEeeyyPT5uA-eoA">
+    <modelElement href="LifeRayStream.uml#_ZEOsZKaEEeeyyPT5uA-eoA"/>
+    <visualProperties xmi:id="_aLB8ZqaEEeeyyPT5uA-eoA" position="530.0,530.0"/>
+    <nameVisual xmi:id="_aKzS56aEEeeyyPT5uA-eoA" text=""/>
+    <sourceRole xmi:id="_aKzS6KaEEeeyyPT5uA-eoA" aggregationKind="NONE" name="config" navigable="true">
+      <modelElement href="LifeRayStream.uml#_ZDfskKaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aKz59aaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKz59KaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_aKzS6aaEEeeyyPT5uA-eoA" aggregationKind="NONE" name="">
+      <modelElement href="LifeRayStream.uml#_ZEPTcKaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aKz596aEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKz59qaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_aKxdtaaEEeeyyPT5uA-eoA" target="_aK0hAKaEEeeyyPT5uA-eoA">
+    <modelElement href="LifeRayStream.uml#_ZEPTcaaEEeeyyPT5uA-eoA"/>
+    <visualProperties xmi:id="_aLCjcKaEEeeyyPT5uA-eoA" position="550.0,550.0"/>
+    <nameVisual xmi:id="_aKzS6qaEEeeyyPT5uA-eoA" text=""/>
+    <sourceRole xmi:id="_aKzS66aEEeeyyPT5uA-eoA" aggregationKind="NONE" name="cluster" navigable="true">
+      <modelElement href="LifeRayStream.uml#_ZDfskaaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aKz5-aaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKz5-KaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_aKzS7KaEEeeyyPT5uA-eoA" aggregationKind="NONE" name="">
+      <modelElement href="LifeRayStream.uml#_ZEPTcqaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aKz5-6aEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKz5-qaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_aKZDMaaEEeeyyPT5uA-eoA" sourceConnectionVisual="_aKZDMqaEEeeyyPT5uA-eoA" text="@author BharathiKumar_S&#xD;&#xA; *" item="_aKaRUKaEEeeyyPT5uA-eoA">
+    <modelElement href="LifeRayStream.uml#_ZEMQIqaEEeeyyPT5uA-eoA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_aKdUoKaEEeeyyPT5uA-eoA" sourceConnectionVisual="_aKdUoaaEEeeyyPT5uA-eoA" text="@author BharathiKumar_S&#xD;&#xA; *" item="_aKd7sKaEEeeyyPT5uA-eoA">
+    <modelElement href="LifeRayStream.uml#_ZEMQI6aEEeeyyPT5uA-eoA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_aJlx8KaEEeeyyPT5uA-eoA" name="ApplicationContextUtil" associationsOut="_aJlK4KaEEeeyyPT5uA-eoA">
+    <modelElement href="LifeRayStream.uml#_Y3lXgKaEEeeyyPT5uA-eoA"/>
+    <visualProperties xmi:id="_aJlx8aaEEeeyyPT5uA-eoA" position="50.0,50.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_aJlx8qaEEeeyyPT5uA-eoA" name="LegacyStyledElement">
+      <modelElement href="LifeRayStream.uml#_Y3l-kKaEEeeyyPT5uA-eoA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_aJlx86aEEeeyyPT5uA-eoA" name="Annotations">
+      <modelElement href="LifeRayStream.uml#_Y3mloKaEEeeyyPT5uA-eoA"/>
+    </stereotypes>
+    <visibility xmi:id="_aJlx9KaEEeeyyPT5uA-eoA" label="+"/>
+    <attributes xmi:id="_aJlx9aaEEeeyyPT5uA-eoA" name="appContext" staticAttribute="true">
+      <modelElement href="LifeRayStream.uml#_ZDOm0KaEEeeyyPT5uA-eoA"/>
+      <stereotypes xmi:id="_wBR28KaEEeeyyPT5uA-eoA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_wBSeAKaEEeeyyPT5uA-eoA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_wBpqYKaEEeeyyPT5uA-eoA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_9Aeb0KaFEeeyyPT5uA-eoA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_9Afp8KaFEeeyyPT5uA-eoA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_9AzL8KaFEeeyyPT5uA-eoA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_aJlx96aEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aJlx-KaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <type xmi:id="_aJlx-aaEEeeyyPT5uA-eoA" name="ApplicationContext">
+        <modelElement href="LifeRayStream.uml#_Y-4SUKaEEeeyyPT5uA-eoA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_aJlx-qaEEeeyyPT5uA-eoA" name="setApplicationContext">
+      <modelElement href="LifeRayStream.uml#_ZCHMgKaEEeeyyPT5uA-eoA"/>
+      <stereotypes xmi:id="_aJlx-6aEEeeyyPT5uA-eoA" name="StyledElement">
+        <modelElement href="LifeRayStream.uml#_ZCHMgqaEEeeyyPT5uA-eoA"/>
+      </stereotypes>
+      <visibility xmi:id="_aJlx_KaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aJlx_aaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_aJlx_qaEEeeyyPT5uA-eoA" name="applicationContext">
+        <modelElement href="LifeRayStream.uml#_ZCHMgaaEEeeyyPT5uA-eoA"/>
+        <cardinality xmi:id="_aJlx_6aEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+        <type xmi:id="_aJlyAKaEEeeyyPT5uA-eoA" name="ApplicationContext">
+          <modelElement href="LifeRayStream.uml#_Y-4SUKaEEeeyyPT5uA-eoA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_aJtGsKaEEeeyyPT5uA-eoA" name="IBoltBuilder" subclassedBy="_aKZDMKaEEeeyyPT5uA-eoA">
+    <modelElement href="LifeRayStream.uml#_Y3pB4KaEEeeyyPT5uA-eoA"/>
+    <visualProperties xmi:id="_aJtGsaaEEeeyyPT5uA-eoA" position="-1407.0,-289.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_aJtGsqaEEeeyyPT5uA-eoA" label="+"/>
+    <operations xmi:id="_aJtGs6aEEeeyyPT5uA-eoA" name="createBoltInstance">
+      <modelElement href="LifeRayStream.uml#_Y3po8KaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aJtGtKaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aJtGtaaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_aJtGtqaEEeeyyPT5uA-eoA">
+        <modelElement href="LifeRayStream.uml#_Y_n5MKaEEeeyyPT5uA-eoA"/>
+        <type xmi:id="_aJtGt6aEEeeyyPT5uA-eoA" name="SpringUrlBolt">
+          <modelElement href="LifeRayStream.uml#_Y3sFMKaEEeeyyPT5uA-eoA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_aJtGuKaEEeeyyPT5uA-eoA" name="boltType">
+        <modelElement href="LifeRayStream.uml#_Y3po8aaEEeeyyPT5uA-eoA"/>
+        <cardinality xmi:id="_aJtGuaaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+        <type xmi:id="_aJtGuqaEEeeyyPT5uA-eoA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_aJu74KaEEeeyyPT5uA-eoA" name="ISpoutBuilder" subclassedBy="_aKctkKaEEeeyyPT5uA-eoA">
+    <modelElement href="LifeRayStream.uml#_Y3qQAKaEEeeyyPT5uA-eoA"/>
+    <visualProperties xmi:id="_aJu74aaEEeeyyPT5uA-eoA" position="-964.0,362.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_aJu74qaEEeeyyPT5uA-eoA" label="+"/>
+    <operations xmi:id="_aJu746aEEeeyyPT5uA-eoA" name="createSpoutInstance">
+      <modelElement href="LifeRayStream.uml#_Y3q3EKaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aJu75KaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aJu75aaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_aJu75qaEEeeyyPT5uA-eoA">
+        <modelElement href="LifeRayStream.uml#_Y_n5MaaEEeeyyPT5uA-eoA"/>
+        <type xmi:id="_aJu756aEEeeyyPT5uA-eoA" name="SpringUrlSpout">
+          <modelElement href="LifeRayStream.uml#_Y35gkKaEEeeyyPT5uA-eoA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_aJu76KaEEeeyyPT5uA-eoA" name="spoutType">
+        <modelElement href="LifeRayStream.uml#_Y3q3EaaEEeeyyPT5uA-eoA"/>
+        <cardinality xmi:id="_aJu76aaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+        <type xmi:id="_aJu76qaEEeeyyPT5uA-eoA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_aJ1CiaaEEeeyyPT5uA-eoA" name="SpringUrlBolt" associationsOut="_aJz0YKaEEeeyyPT5uA-eoA _aJ0bcKaEEeeyyPT5uA-eoA _aJ1CgKaEEeeyyPT5uA-eoA _aKg_AKaEEeeyyPT5uA-eoA _aKwPkKaEEeeyyPT5uA-eoA">
+    <modelElement href="LifeRayStream.uml#_Y3sFMKaEEeeyyPT5uA-eoA"/>
+    <visualProperties xmi:id="_aJ1CiqaEEeeyyPT5uA-eoA" position="-12.0,307.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_aJ1Ci6aEEeeyyPT5uA-eoA" label="+"/>
+    <attributes xmi:id="_aJ1CjKaEEeeyyPT5uA-eoA" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="LifeRayStream.uml#_ZDP08aaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aJ1CjaaEEeeyyPT5uA-eoA" label="-"/>
+      <cardinality xmi:id="_aJ1CjqaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <type xmi:id="_aJ1Cj6aEEeeyyPT5uA-eoA" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_aJ1CkKaEEeeyyPT5uA-eoA" name="collector">
+      <modelElement href="LifeRayStream.uml#_ZDQcAaaEEeeyyPT5uA-eoA"/>
+      <stereotypes xmi:id="_wBTsIKaEEeeyyPT5uA-eoA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_wBUTMKaEEeeyyPT5uA-eoA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_wBq4gKaEEeeyyPT5uA-eoA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_9AgRAKaFEeeyyPT5uA-eoA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_9AhfIKaFEeeyyPT5uA-eoA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_9A0aEKaFEeeyyPT5uA-eoA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_aJ1CkqaEEeeyyPT5uA-eoA" label="-"/>
+      <cardinality xmi:id="_aJ1Ck6aEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <type xmi:id="_aJ1ClKaEEeeyyPT5uA-eoA" name="OutputCollector">
+        <modelElement href="LifeRayStream.uml#_Y-U4sKaEEeeyyPT5uA-eoA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_aJ1ClaaEEeeyyPT5uA-eoA" name="data">
+      <modelElement href="LifeRayStream.uml#_ZDRDEaaEEeeyyPT5uA-eoA"/>
+      <stereotypes xmi:id="_aJ1ClqaEEeeyyPT5uA-eoA" name="LegacyStyledElement">
+        <modelElement href="LifeRayStream.uml#_ZDRqIKaEEeeyyPT5uA-eoA"/>
+      </stereotypes>
+      <visibility xmi:id="_aJ1Cl6aEEeeyyPT5uA-eoA" label="~"/>
+      <cardinality xmi:id="_aJ1CmKaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <type xmi:id="_aJ1CmaaEEeeyyPT5uA-eoA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_aJ1CmqaEEeeyyPT5uA-eoA" name="oos">
+      <modelElement href="LifeRayStream.uml#_ZDRqIaaEEeeyyPT5uA-eoA"/>
+      <stereotypes xmi:id="_wBVhUKaEEeeyyPT5uA-eoA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_wBWIYKaEEeeyyPT5uA-eoA" name="Annotations"/>
+      <stereotypes xmi:id="_wBWvcKaEEeeyyPT5uA-eoA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_wBWvcaaEEeeyyPT5uA-eoA" name="Annotations"/>
+      <stereotypes xmi:id="_wBsGoKaEEeeyyPT5uA-eoA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_wBstsKaEEeeyyPT5uA-eoA" name="Annotations"/>
+      <stereotypes xmi:id="_9AiGMKaFEeeyyPT5uA-eoA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_9AitQKaFEeeyyPT5uA-eoA" name="Annotations"/>
+      <stereotypes xmi:id="_9AjUUKaFEeeyyPT5uA-eoA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_9Aj7YKaFEeeyyPT5uA-eoA" name="Annotations"/>
+      <stereotypes xmi:id="_9A1oMKaFEeeyyPT5uA-eoA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_9A1oMaaFEeeyyPT5uA-eoA" name="Annotations"/>
+      <visibility xmi:id="_aJ1CnaaEEeeyyPT5uA-eoA" label="-"/>
+      <cardinality xmi:id="_aJ1CnqaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <type xmi:id="_aJ1Cn6aEEeeyyPT5uA-eoA" name="ObjectOutputStream">
+        <modelElement href="LifeRayStream.uml#_Y-6HgqaEEeeyyPT5uA-eoA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_aJ1CoKaEEeeyyPT5uA-eoA" name="br">
+      <modelElement href="LifeRayStream.uml#_ZDSRM6aEEeeyyPT5uA-eoA"/>
+      <stereotypes xmi:id="_wBX9kKaEEeeyyPT5uA-eoA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_wBYkoKaEEeeyyPT5uA-eoA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_wBtUwKaEEeeyyPT5uA-eoA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_9AlJgKaFEeeyyPT5uA-eoA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_9AlwkKaFEeeyyPT5uA-eoA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_9A22UKaFEeeyyPT5uA-eoA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_aJ1CoqaEEeeyyPT5uA-eoA" label="-"/>
+      <cardinality xmi:id="_aJ1Co6aEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <type xmi:id="_aJ1CpKaEEeeyyPT5uA-eoA" name="BufferedReader">
+        <modelElement href="LifeRayStream.uml#_Y-lXYaaEEeeyyPT5uA-eoA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_aJ1CpaaEEeeyyPT5uA-eoA" name="Json_parser">
+      <modelElement href="LifeRayStream.uml#_Y3tTUKaEEeeyyPT5uA-eoA"/>
+      <stereotypes xmi:id="_aJ1CpqaEEeeyyPT5uA-eoA" name="LegacyStyledElement">
+        <modelElement href="LifeRayStream.uml#_Y3t6YKaEEeeyyPT5uA-eoA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_aJ1Cp6aEEeeyyPT5uA-eoA" name="Annotations">
+        <modelElement href="LifeRayStream.uml#_Y3uhcKaEEeeyyPT5uA-eoA"/>
+      </stereotypes>
+      <visibility xmi:id="_aJ1CqKaEEeeyyPT5uA-eoA" label="-"/>
+      <cardinality xmi:id="_aJ1CqaaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_aJ1CqqaEEeeyyPT5uA-eoA" name="execute">
+      <modelElement href="LifeRayStream.uml#_ZCJBsKaEEeeyyPT5uA-eoA"/>
+      <stereotypes xmi:id="_aJ1Cq6aEEeeyyPT5uA-eoA" name="LegacyStyledElement">
+        <modelElement href="LifeRayStream.uml#_ZCJowaaEEeeyyPT5uA-eoA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_aJ1CrKaEEeeyyPT5uA-eoA" name="Annotations">
+        <modelElement href="LifeRayStream.uml#_ZCKP0KaEEeeyyPT5uA-eoA"/>
+      </stereotypes>
+      <visibility xmi:id="_aJ1CraaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aJ1CrqaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_aJ1Cr6aEEeeyyPT5uA-eoA" name="tuple">
+        <modelElement href="LifeRayStream.uml#_ZCJowKaEEeeyyPT5uA-eoA"/>
+        <cardinality xmi:id="_aJ1CsKaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+        <type xmi:id="_aJ1CsaaEEeeyyPT5uA-eoA" name="Tuple">
+          <modelElement href="LifeRayStream.uml#_Y-ZKIKaEEeeyyPT5uA-eoA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_aJ1CsqaEEeeyyPT5uA-eoA" name="prepare">
+      <modelElement href="LifeRayStream.uml#_ZCK24KaEEeeyyPT5uA-eoA"/>
+      <stereotypes xmi:id="_aJ1Cs6aEEeeyyPT5uA-eoA" name="LegacyStyledElement">
+        <modelElement href="LifeRayStream.uml#_ZCLd8KaEEeeyyPT5uA-eoA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_aJ1CtKaEEeeyyPT5uA-eoA" name="Annotations">
+        <modelElement href="LifeRayStream.uml#_ZCLd8aaEEeeyyPT5uA-eoA"/>
+      </stereotypes>
+      <visibility xmi:id="_aJ1CtaaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aJ1CtqaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_aJ1Ct6aEEeeyyPT5uA-eoA" name="conf">
+        <modelElement href="LifeRayStream.uml#_ZCK24aaEEeeyyPT5uA-eoA"/>
+        <cardinality xmi:id="_aJ1CuKaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+        <type xmi:id="_aJ1CuaaEEeeyyPT5uA-eoA" name="Map">
+          <modelElement href="LifeRayStream.uml#_Y-TqkKaEEeeyyPT5uA-eoA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_aJ1CuqaEEeeyyPT5uA-eoA" name="context">
+        <modelElement href="LifeRayStream.uml#_ZCK24qaEEeeyyPT5uA-eoA"/>
+        <cardinality xmi:id="_aJ1Cu6aEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+        <type xmi:id="_aJ1CvKaEEeeyyPT5uA-eoA" name="TopologyContext">
+          <modelElement href="LifeRayStream.uml#_Y-VfwaaEEeeyyPT5uA-eoA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_aJ1CvaaEEeeyyPT5uA-eoA" name="outputcollector">
+        <modelElement href="LifeRayStream.uml#_ZCK246aEEeeyyPT5uA-eoA"/>
+        <cardinality xmi:id="_aJ1CvqaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+        <type xmi:id="_aJ1Cv6aEEeeyyPT5uA-eoA" name="OutputCollector">
+          <modelElement href="LifeRayStream.uml#_Y-U4sKaEEeeyyPT5uA-eoA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_aJ1CwKaEEeeyyPT5uA-eoA" name="declareOutputFields">
+      <modelElement href="LifeRayStream.uml#_ZCMFAKaEEeeyyPT5uA-eoA"/>
+      <stereotypes xmi:id="_aJ1CwaaEEeeyyPT5uA-eoA" name="LegacyStyledElement">
+        <modelElement href="LifeRayStream.uml#_ZCMFAqaEEeeyyPT5uA-eoA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_aJ1CwqaEEeeyyPT5uA-eoA" name="Annotations">
+        <modelElement href="LifeRayStream.uml#_ZCMsEKaEEeeyyPT5uA-eoA"/>
+      </stereotypes>
+      <visibility xmi:id="_aJ1Cw6aEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aJ1CxKaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_aJ1CxaaEEeeyyPT5uA-eoA" name="declarer">
+        <modelElement href="LifeRayStream.uml#_ZCMFAaaEEeeyyPT5uA-eoA"/>
+        <cardinality xmi:id="_aJ1CxqaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+        <type xmi:id="_aJ1Cx6aEEeeyyPT5uA-eoA" name="OutputFieldsDeclarer">
+          <modelElement href="LifeRayStream.uml#_Y-Wt4KaEEeeyyPT5uA-eoA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_aJ1CyKaEEeeyyPT5uA-eoA" name="getUrlData">
+      <modelElement href="LifeRayStream.uml#_ZCMsEqaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aJ1CyaaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aJ1CyqaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_aJ1Cy6aEEeeyyPT5uA-eoA">
+        <modelElement href="LifeRayStream.uml#_ZCMsFKaEEeeyyPT5uA-eoA"/>
+        <type xmi:id="_aJ1CzKaEEeeyyPT5uA-eoA" name="BufferedReader">
+          <modelElement href="LifeRayStream.uml#_Y-lXYaaEEeeyyPT5uA-eoA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_aJ1CzaaEEeeyyPT5uA-eoA" name="Url">
+        <modelElement href="LifeRayStream.uml#_ZCMsE6aEEeeyyPT5uA-eoA"/>
+        <cardinality xmi:id="_aJ1CzqaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+        <type xmi:id="_aJ1Cz6aEEeeyyPT5uA-eoA" name="URL">
+          <modelElement href="LifeRayStream.uml#_Y-kJQaaEEeeyyPT5uA-eoA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_aJ1C0KaEEeeyyPT5uA-eoA" name="print">
+      <modelElement href="LifeRayStream.uml#_ZCNTIKaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aJ1C0aaEEeeyyPT5uA-eoA" label="-"/>
+      <cardinality xmi:id="_aJ1C0qaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_aJ1C06aEEeeyyPT5uA-eoA" name="br">
+        <modelElement href="LifeRayStream.uml#_ZCNTIaaEEeeyyPT5uA-eoA"/>
+        <cardinality xmi:id="_aJ1C1KaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+        <type xmi:id="_aJ1C1aaEEeeyyPT5uA-eoA" name="BufferedReader">
+          <modelElement href="LifeRayStream.uml#_Y-lXYaaEEeeyyPT5uA-eoA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_aKLAwKaEEeeyyPT5uA-eoA" name="SpringUrlBolt2" associationsOut="_aJ-zgKaEEeeyyPT5uA-eoA _aJ_akKaEEeeyyPT5uA-eoA _aJ_akaaEEeeyyPT5uA-eoA">
+    <modelElement href="LifeRayStream.uml#_Y3zZ8KaEEeeyyPT5uA-eoA"/>
+    <visualProperties xmi:id="_aKLAwaaEEeeyyPT5uA-eoA" position="-12.0,639.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_aKLAwqaEEeeyyPT5uA-eoA" label="+"/>
+    <attributes xmi:id="_aKLAw6aEEeeyyPT5uA-eoA" name="collector">
+      <modelElement href="LifeRayStream.uml#_ZDTfUKaEEeeyyPT5uA-eoA"/>
+      <stereotypes xmi:id="_wBZywKaEEeeyyPT5uA-eoA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_wBaZ0KaEEeeyyPT5uA-eoA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_wBui4KaEEeeyyPT5uA-eoA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_9Am-sKaFEeeyyPT5uA-eoA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_9AnlwKaFEeeyyPT5uA-eoA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_9A4EcKaFEeeyyPT5uA-eoA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_aKLAxaaEEeeyyPT5uA-eoA" label="-"/>
+      <cardinality xmi:id="_aKLAxqaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <type xmi:id="_aKLAx6aEEeeyyPT5uA-eoA" name="OutputCollector">
+        <modelElement href="LifeRayStream.uml#_Y-U4sKaEEeeyyPT5uA-eoA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_aKLAyKaEEeeyyPT5uA-eoA" name="data">
+      <modelElement href="LifeRayStream.uml#_ZDUGYaaEEeeyyPT5uA-eoA"/>
+      <stereotypes xmi:id="_aKLAyaaEEeeyyPT5uA-eoA" name="LegacyStyledElement">
+        <modelElement href="LifeRayStream.uml#_ZDUtcKaEEeeyyPT5uA-eoA"/>
+      </stereotypes>
+      <visibility xmi:id="_aKLAyqaEEeeyyPT5uA-eoA" label="~"/>
+      <cardinality xmi:id="_aKLAy6aEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <type xmi:id="_aKLAzKaEEeeyyPT5uA-eoA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_aKLAzaaEEeeyyPT5uA-eoA" name="oos">
+      <modelElement href="LifeRayStream.uml#_ZDUtcaaEEeeyyPT5uA-eoA"/>
+      <stereotypes xmi:id="_wBbA4KaEEeeyyPT5uA-eoA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_wBcPAKaEEeeyyPT5uA-eoA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_wBvxAKaEEeeyyPT5uA-eoA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_9Aoz4KaFEeeyyPT5uA-eoA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_9Apa8KaFEeeyyPT5uA-eoA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_9A5SkKaFEeeyyPT5uA-eoA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_aKLAz6aEEeeyyPT5uA-eoA" label="-"/>
+      <cardinality xmi:id="_aKLA0KaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <type xmi:id="_aKLA0aaEEeeyyPT5uA-eoA" name="ObjectOutputStream">
+        <modelElement href="LifeRayStream.uml#_Y-6HgqaEEeeyyPT5uA-eoA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_aKLA0qaEEeeyyPT5uA-eoA" name="br">
+      <modelElement href="LifeRayStream.uml#_ZDVUgaaEEeeyyPT5uA-eoA"/>
+      <stereotypes xmi:id="_wBc2EKaEEeeyyPT5uA-eoA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_wBddIKaEEeeyyPT5uA-eoA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_wBw_IKaEEeeyyPT5uA-eoA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_9AqpEKaFEeeyyPT5uA-eoA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_9ArQIKaFEeeyyPT5uA-eoA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_9A55oKaFEeeyyPT5uA-eoA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_aKLA1KaEEeeyyPT5uA-eoA" label="-"/>
+      <cardinality xmi:id="_aKLA1aaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <type xmi:id="_aKLA1qaEEeeyyPT5uA-eoA" name="BufferedReader">
+        <modelElement href="LifeRayStream.uml#_Y-lXYaaEEeeyyPT5uA-eoA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_aKLA16aEEeeyyPT5uA-eoA" name="execute">
+      <modelElement href="LifeRayStream.uml#_ZCPIUKaEEeeyyPT5uA-eoA"/>
+      <stereotypes xmi:id="_aKLA2KaEEeeyyPT5uA-eoA" name="LegacyStyledElement">
+        <modelElement href="LifeRayStream.uml#_ZCPvYKaEEeeyyPT5uA-eoA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_aKLA2aaEEeeyyPT5uA-eoA" name="Annotations">
+        <modelElement href="LifeRayStream.uml#_ZCPvYaaEEeeyyPT5uA-eoA"/>
+      </stereotypes>
+      <visibility xmi:id="_aKLA2qaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKLA26aEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_aKLA3KaEEeeyyPT5uA-eoA" name="tuple">
+        <modelElement href="LifeRayStream.uml#_ZCPIUaaEEeeyyPT5uA-eoA"/>
+        <cardinality xmi:id="_aKLA3aaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+        <type xmi:id="_aKLA3qaEEeeyyPT5uA-eoA" name="Tuple">
+          <modelElement href="LifeRayStream.uml#_Y-ZKIKaEEeeyyPT5uA-eoA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_aKLA36aEEeeyyPT5uA-eoA" name="prepare">
+      <modelElement href="LifeRayStream.uml#_ZCQWcKaEEeeyyPT5uA-eoA"/>
+      <stereotypes xmi:id="_aKLA4KaEEeeyyPT5uA-eoA" name="LegacyStyledElement">
+        <modelElement href="LifeRayStream.uml#_ZCQ9gqaEEeeyyPT5uA-eoA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_aKLA4aaEEeeyyPT5uA-eoA" name="Annotations">
+        <modelElement href="LifeRayStream.uml#_ZCRkkKaEEeeyyPT5uA-eoA"/>
+      </stereotypes>
+      <visibility xmi:id="_aKLA4qaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKLA46aEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_aKLA5KaEEeeyyPT5uA-eoA" name="conf">
+        <modelElement href="LifeRayStream.uml#_ZCQWcaaEEeeyyPT5uA-eoA"/>
+        <cardinality xmi:id="_aKLA5aaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+        <type xmi:id="_aKLA5qaEEeeyyPT5uA-eoA" name="Map">
+          <modelElement href="LifeRayStream.uml#_Y-TqkKaEEeeyyPT5uA-eoA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_aKLA56aEEeeyyPT5uA-eoA" name="context">
+        <modelElement href="LifeRayStream.uml#_ZCQ9gKaEEeeyyPT5uA-eoA"/>
+        <cardinality xmi:id="_aKLA6KaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+        <type xmi:id="_aKLA6aaEEeeyyPT5uA-eoA" name="TopologyContext">
+          <modelElement href="LifeRayStream.uml#_Y-VfwaaEEeeyyPT5uA-eoA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_aKLA6qaEEeeyyPT5uA-eoA" name="outputcollector">
+        <modelElement href="LifeRayStream.uml#_ZCQ9gaaEEeeyyPT5uA-eoA"/>
+        <cardinality xmi:id="_aKLA66aEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+        <type xmi:id="_aKLA7KaEEeeyyPT5uA-eoA" name="OutputCollector">
+          <modelElement href="LifeRayStream.uml#_Y-U4sKaEEeeyyPT5uA-eoA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_aKLA7aaEEeeyyPT5uA-eoA" name="declareOutputFields">
+      <modelElement href="LifeRayStream.uml#_ZCRkkqaEEeeyyPT5uA-eoA"/>
+      <stereotypes xmi:id="_aKLA7qaEEeeyyPT5uA-eoA" name="LegacyStyledElement">
+        <modelElement href="LifeRayStream.uml#_ZCSLoaaEEeeyyPT5uA-eoA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_aKLA76aEEeeyyPT5uA-eoA" name="Annotations">
+        <modelElement href="LifeRayStream.uml#_ZCSysKaEEeeyyPT5uA-eoA"/>
+      </stereotypes>
+      <visibility xmi:id="_aKLA8KaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKLA8aaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_aKLA8qaEEeeyyPT5uA-eoA" name="declarer">
+        <modelElement href="LifeRayStream.uml#_ZCSLoKaEEeeyyPT5uA-eoA"/>
+        <cardinality xmi:id="_aKLA86aEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+        <type xmi:id="_aKLA9KaEEeeyyPT5uA-eoA" name="OutputFieldsDeclarer">
+          <modelElement href="LifeRayStream.uml#_Y-Wt4KaEEeeyyPT5uA-eoA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_aKLA9aaEEeeyyPT5uA-eoA" name="getUrlData">
+      <modelElement href="LifeRayStream.uml#_ZCSysqaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aKLA9qaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKLA96aEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_aKLA-KaEEeeyyPT5uA-eoA" name="Url">
+        <modelElement href="LifeRayStream.uml#_ZCSys6aEEeeyyPT5uA-eoA"/>
+        <cardinality xmi:id="_aKLA-aaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+        <type xmi:id="_aKLA-qaEEeeyyPT5uA-eoA" name="URL">
+          <modelElement href="LifeRayStream.uml#_Y-kJQaaEEeeyyPT5uA-eoA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_aKLA-6aEEeeyyPT5uA-eoA" name="print">
+      <modelElement href="LifeRayStream.uml#_ZCTZwKaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aKLA_KaEEeeyyPT5uA-eoA" label="-"/>
+      <cardinality xmi:id="_aKLA_aaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_aKLA_qaEEeeyyPT5uA-eoA" name="br">
+        <modelElement href="LifeRayStream.uml#_ZCTZwaaEEeeyyPT5uA-eoA"/>
+        <cardinality xmi:id="_aKLA_6aEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+        <type xmi:id="_aKLBAKaEEeeyyPT5uA-eoA" name="BufferedReader">
+          <modelElement href="LifeRayStream.uml#_Y-lXYaaEEeeyyPT5uA-eoA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_aKUKwKaEEeeyyPT5uA-eoA" name="SpringUrlSpout" associationsIn="_aKTjoKaEEeeyyPT5uA-eoA _aKUKsKaEEeeyyPT5uA-eoA _aKUKuKaEEeeyyPT5uA-eoA" associationsOut="_aKgX8KaEEeeyyPT5uA-eoA _aKvogKaEEeeyyPT5uA-eoA">
+    <modelElement href="LifeRayStream.uml#_Y35gkKaEEeeyyPT5uA-eoA"/>
+    <visualProperties xmi:id="_aKUKwaaEEeeyyPT5uA-eoA" position="-21.0,935.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_aKUKwqaEEeeyyPT5uA-eoA" label="+"/>
+    <attributes xmi:id="_aKUKw6aEEeeyyPT5uA-eoA" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="LifeRayStream.uml#_ZDWioKaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aKUKxKaEEeeyyPT5uA-eoA" label="-"/>
+      <cardinality xmi:id="_aKUKxaaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <type xmi:id="_aKUKxqaEEeeyyPT5uA-eoA" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_aKUKx6aEEeeyyPT5uA-eoA" name="collector">
+      <modelElement href="LifeRayStream.uml#_ZDXJsKaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aKUKyKaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKUKyaaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <type xmi:id="_aKUKyqaEEeeyyPT5uA-eoA" name="SpoutOutputCollector">
+        <modelElement href="LifeRayStream.uml#_Y-bmYKaEEeeyyPT5uA-eoA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_aKUKy6aEEeeyyPT5uA-eoA" name="url">
+      <modelElement href="LifeRayStream.uml#_ZDXJsaaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aKUKzKaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKUKzaaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <type xmi:id="_aKUKzqaEEeeyyPT5uA-eoA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_aKUKz6aEEeeyyPT5uA-eoA" name="values">
+      <modelElement href="LifeRayStream.uml#_ZDXJsqaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aKUK0KaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKUK0aaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <type xmi:id="_aKUK0qaEEeeyyPT5uA-eoA" name="Values">
+        <modelElement href="LifeRayStream.uml#_Y-dbkKaEEeeyyPT5uA-eoA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_aKUK06aEEeeyyPT5uA-eoA" name="spoutName">
+      <modelElement href="LifeRayStream.uml#_ZDXwwKaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aKUK1KaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKUK1aaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <type xmi:id="_aKUK1qaEEeeyyPT5uA-eoA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_aKUK16aEEeeyyPT5uA-eoA" name="lt">
+      <modelElement href="LifeRayStream.uml#_ZDXwwaaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aKUK2KaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKUK2aaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <type xmi:id="_aKUK2qaEEeeyyPT5uA-eoA" name="StaticLoadTableDetails">
+        <modelElement href="LifeRayStream.uml#_Y4sKwKaEEeeyyPT5uA-eoA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_aKUxwKaEEeeyyPT5uA-eoA" name="nextTuple">
+      <modelElement href="LifeRayStream.uml#_Y36usKaEEeeyyPT5uA-eoA"/>
+      <stereotypes xmi:id="_aKUxwaaEEeeyyPT5uA-eoA" name="LegacyStyledElement">
+        <modelElement href="LifeRayStream.uml#_Y37VwKaEEeeyyPT5uA-eoA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_aKUxwqaEEeeyyPT5uA-eoA" name="Annotations">
+        <modelElement href="LifeRayStream.uml#_Y37VwaaEEeeyyPT5uA-eoA"/>
+      </stereotypes>
+      <visibility xmi:id="_aKUxw6aEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKUxxKaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_aKUxxaaEEeeyyPT5uA-eoA" name="open">
+      <modelElement href="LifeRayStream.uml#_ZCVO8KaEEeeyyPT5uA-eoA"/>
+      <stereotypes xmi:id="_aKUxxqaEEeeyyPT5uA-eoA" name="LegacyStyledElement">
+        <modelElement href="LifeRayStream.uml#_ZCV2AKaEEeeyyPT5uA-eoA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_aKUxx6aEEeeyyPT5uA-eoA" name="Annotations">
+        <modelElement href="LifeRayStream.uml#_ZCV2AaaEEeeyyPT5uA-eoA"/>
+      </stereotypes>
+      <visibility xmi:id="_aKUxyKaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKUxyaaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_aKUxyqaEEeeyyPT5uA-eoA" name="conf">
+        <modelElement href="LifeRayStream.uml#_ZCVO8aaEEeeyyPT5uA-eoA"/>
+        <cardinality xmi:id="_aKUxy6aEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+        <type xmi:id="_aKUxzKaEEeeyyPT5uA-eoA" name="Map">
+          <modelElement href="LifeRayStream.uml#_Y-TqkKaEEeeyyPT5uA-eoA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_aKUxzaaEEeeyyPT5uA-eoA" name="context">
+        <modelElement href="LifeRayStream.uml#_ZCVO8qaEEeeyyPT5uA-eoA"/>
+        <cardinality xmi:id="_aKUxzqaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+        <type xmi:id="_aKUxz6aEEeeyyPT5uA-eoA" name="TopologyContext">
+          <modelElement href="LifeRayStream.uml#_Y-VfwaaEEeeyyPT5uA-eoA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_aKUx0KaEEeeyyPT5uA-eoA" name="outputcollector">
+        <modelElement href="LifeRayStream.uml#_ZCVO86aEEeeyyPT5uA-eoA"/>
+        <cardinality xmi:id="_aKUx0aaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+        <type xmi:id="_aKUx0qaEEeeyyPT5uA-eoA" name="SpoutOutputCollector">
+          <modelElement href="LifeRayStream.uml#_Y-bmYKaEEeeyyPT5uA-eoA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_aKUx06aEEeeyyPT5uA-eoA" name="declareOutputFields">
+      <modelElement href="LifeRayStream.uml#_ZCWdEKaEEeeyyPT5uA-eoA"/>
+      <stereotypes xmi:id="_aKUx1KaEEeeyyPT5uA-eoA" name="LegacyStyledElement">
+        <modelElement href="LifeRayStream.uml#_ZCWdEqaEEeeyyPT5uA-eoA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_aKUx1aaEEeeyyPT5uA-eoA" name="Annotations">
+        <modelElement href="LifeRayStream.uml#_ZCXEIKaEEeeyyPT5uA-eoA"/>
+      </stereotypes>
+      <visibility xmi:id="_aKUx1qaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKUx16aEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_aKUx2KaEEeeyyPT5uA-eoA" name="declarer">
+        <modelElement href="LifeRayStream.uml#_ZCWdEaaEEeeyyPT5uA-eoA"/>
+        <cardinality xmi:id="_aKUx2aaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+        <type xmi:id="_aKUx2qaEEeeyyPT5uA-eoA" name="OutputFieldsDeclarer">
+          <modelElement href="LifeRayStream.uml#_Y-Wt4KaEEeeyyPT5uA-eoA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_aKaRUKaEEeeyyPT5uA-eoA" comments="_aKZDMaaEEeeyyPT5uA-eoA" targetConnectionVisual="_aKZDMqaEEeeyyPT5uA-eoA" name="URLBoltBuilder" associationsIn="_aKhmEaaEEeeyyPT5uA-eoA" generalizations="_aKZDMKaEEeeyyPT5uA-eoA">
+    <modelElement href="LifeRayStream.uml#_Y4AOQKaEEeeyyPT5uA-eoA"/>
+    <visualProperties xmi:id="_aKaRUaaEEeeyyPT5uA-eoA" position="-1005.0,-163.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_aKaRUqaEEeeyyPT5uA-eoA" name="Generics">
+      <modelElement href="LifeRayStream.uml#_Y4BcYKaEEeeyyPT5uA-eoA"/>
+    </stereotypes>
+    <visibility xmi:id="_aKaRU6aEEeeyyPT5uA-eoA" label="+"/>
+    <operations xmi:id="_aKaRVKaEEeeyyPT5uA-eoA" name="createBoltInstance">
+      <modelElement href="LifeRayStream.uml#_Y4CDcKaEEeeyyPT5uA-eoA"/>
+      <stereotypes xmi:id="_aKaRVaaEEeeyyPT5uA-eoA" name="LegacyStyledElement">
+        <modelElement href="LifeRayStream.uml#_Y4CqgKaEEeeyyPT5uA-eoA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_aKaRVqaEEeeyyPT5uA-eoA" name="Annotations">
+        <modelElement href="LifeRayStream.uml#_Y4DRkKaEEeeyyPT5uA-eoA"/>
+      </stereotypes>
+      <visibility xmi:id="_aKaRV6aEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKaRWKaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_aKaRWaaEEeeyyPT5uA-eoA">
+        <modelElement href="LifeRayStream.uml#_Y_zfYKaEEeeyyPT5uA-eoA"/>
+        <type xmi:id="_aKaRWqaEEeeyyPT5uA-eoA" name="SpringUrlBolt">
+          <modelElement href="LifeRayStream.uml#_Y3sFMKaEEeeyyPT5uA-eoA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_aKaRW6aEEeeyyPT5uA-eoA" name="boltType">
+        <modelElement href="LifeRayStream.uml#_Y4CDcaaEEeeyyPT5uA-eoA"/>
+        <cardinality xmi:id="_aKaRXKaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+        <type xmi:id="_aKaRXaaEEeeyyPT5uA-eoA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_aKd7sKaEEeeyyPT5uA-eoA" comments="_aKdUoKaEEeeyyPT5uA-eoA" targetConnectionVisual="_aKdUoaaEEeeyyPT5uA-eoA" name="URLSpoutBuilder" associationsOut="_aKhmEKaEEeeyyPT5uA-eoA" generalizations="_aKctkKaEEeeyyPT5uA-eoA">
+    <modelElement href="LifeRayStream.uml#_Y4D4oKaEEeeyyPT5uA-eoA"/>
+    <visualProperties xmi:id="_aKd7saaEEeeyyPT5uA-eoA" position="-471.0,488.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_aKd7sqaEEeeyyPT5uA-eoA" label="+"/>
+    <operations xmi:id="_aKd7s6aEEeeyyPT5uA-eoA" name="createSpoutInstance">
+      <modelElement href="LifeRayStream.uml#_Y4FGwKaEEeeyyPT5uA-eoA"/>
+      <stereotypes xmi:id="_aKd7tKaEEeeyyPT5uA-eoA" name="LegacyStyledElement">
+        <modelElement href="LifeRayStream.uml#_Y4Ft0KaEEeeyyPT5uA-eoA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_aKd7taaEEeeyyPT5uA-eoA" name="Annotations">
+        <modelElement href="LifeRayStream.uml#_Y4GU4KaEEeeyyPT5uA-eoA"/>
+      </stereotypes>
+      <visibility xmi:id="_aKd7tqaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKd7t6aEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_aKd7uKaEEeeyyPT5uA-eoA">
+        <modelElement href="LifeRayStream.uml#_Y_zfYqaEEeeyyPT5uA-eoA"/>
+        <type xmi:id="_aKd7uaaEEeeyyPT5uA-eoA" name="SpringUrlSpout">
+          <modelElement href="LifeRayStream.uml#_Y35gkKaEEeeyyPT5uA-eoA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_aKd7uqaEEeeyyPT5uA-eoA" name="spoutType">
+        <modelElement href="LifeRayStream.uml#_Y4FGwaaEEeeyyPT5uA-eoA"/>
+        <cardinality xmi:id="_aKd7u6aEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+        <type xmi:id="_aKd7vKaEEeeyyPT5uA-eoA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_aKfw4KaEEeeyyPT5uA-eoA" name="UrlTopologyRun">
+    <modelElement href="LifeRayStream.uml#_Y4G78KaEEeeyyPT5uA-eoA"/>
+    <visualProperties xmi:id="_aKfw4aaEEeeyyPT5uA-eoA" position="590.0,483.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_aKfw4qaEEeeyyPT5uA-eoA" label="+"/>
+    <operations xmi:id="_aKfw46aEEeeyyPT5uA-eoA" name="main" staticOperation="true">
+      <modelElement href="LifeRayStream.uml#_Y4HjAKaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aKfw5KaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKfw5aaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_aKfw5qaEEeeyyPT5uA-eoA" name="args">
+        <modelElement href="LifeRayStream.uml#_Y4IKEKaEEeeyyPT5uA-eoA"/>
+        <cardinality xmi:id="_aKfw56aEEeeyyPT5uA-eoA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_aKfw6KaEEeeyyPT5uA-eoA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_aKmemKaEEeeyyPT5uA-eoA" name="UrlTopologyspring" associationsIn="_aKgX8KaEEeeyyPT5uA-eoA _aKg_AKaEEeeyyPT5uA-eoA _aKhmEKaEEeeyyPT5uA-eoA _aKl3gKaEEeeyyPT5uA-eoA _aKl3iKaEEeeyyPT5uA-eoA _aKmekKaEEeeyyPT5uA-eoA" associationsOut="_aKhmEaaEEeeyyPT5uA-eoA">
+    <modelElement href="LifeRayStream.uml#_Y4IxIKaEEeeyyPT5uA-eoA"/>
+    <visualProperties xmi:id="_aKmemaaEEeeyyPT5uA-eoA" position="-567.0,-37.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_aKmemqaEEeeyyPT5uA-eoA" label="+"/>
+    <attributes xmi:id="_aKmem6aEEeeyyPT5uA-eoA" name="builder">
+      <modelElement href="LifeRayStream.uml#_ZDYX0KaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aKmenKaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKmenaaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <type xmi:id="_aKmenqaEEeeyyPT5uA-eoA" name="TopologyBuilder">
+        <modelElement href="LifeRayStream.uml#_Y-ge4aaEEeeyyPT5uA-eoA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_aKmen6aEEeeyyPT5uA-eoA" name="urlspout">
+      <modelElement href="LifeRayStream.uml#_ZDY-4KaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aKmeoKaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKmeoaaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <type xmi:id="_aKmeoqaEEeeyyPT5uA-eoA" name="SpringUrlSpout">
+        <modelElement href="LifeRayStream.uml#_Y35gkKaEEeeyyPT5uA-eoA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_aKmeo6aEEeeyyPT5uA-eoA" name="urlbolt">
+      <modelElement href="LifeRayStream.uml#_ZDY-4aaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aKmepKaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKmepaaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <type xmi:id="_aKmepqaEEeeyyPT5uA-eoA" name="SpringUrlBolt">
+        <modelElement href="LifeRayStream.uml#_Y3sFMKaEEeeyyPT5uA-eoA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_aKmep6aEEeeyyPT5uA-eoA" name="config">
+      <modelElement href="LifeRayStream.uml#_ZDY-4qaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aKmeqKaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKmeqaaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <type xmi:id="_aKmeqqaEEeeyyPT5uA-eoA" name="Config">
+        <modelElement href="LifeRayStream.uml#_Y-fQwKaEEeeyyPT5uA-eoA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_aKmeq6aEEeeyyPT5uA-eoA" name="cluster">
+      <modelElement href="LifeRayStream.uml#_ZDZl8KaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aKmerKaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKmeraaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <type xmi:id="_aKmerqaEEeeyyPT5uA-eoA" name="LocalCluster">
+        <modelElement href="LifeRayStream.uml#_Y-f30aaEEeeyyPT5uA-eoA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_aKmer6aEEeeyyPT5uA-eoA" name="spoutName">
+      <modelElement href="LifeRayStream.uml#_ZDZl8aaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aKmesKaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKmesaaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <type xmi:id="_aKmesqaEEeeyyPT5uA-eoA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_aKmes6aEEeeyyPT5uA-eoA" name="boltName">
+      <modelElement href="LifeRayStream.uml#_ZDaNAKaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aKmetKaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKmetaaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <type xmi:id="_aKmetqaEEeeyyPT5uA-eoA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_aKmet6aEEeeyyPT5uA-eoA" name="topologyName">
+      <modelElement href="LifeRayStream.uml#_ZDaNAaaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aKmeuKaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKmeuaaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <type xmi:id="_aKmeuqaEEeeyyPT5uA-eoA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_aKmeu6aEEeeyyPT5uA-eoA" defaultValue="&quot;UrlSpout&quot;" name="spouttype" staticAttribute="true">
+      <modelElement href="LifeRayStream.uml#_ZDa0EKaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aKmevKaEEeeyyPT5uA-eoA" label="-"/>
+      <cardinality xmi:id="_aKmevaaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <type xmi:id="_aKmevqaEEeeyyPT5uA-eoA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_aKmev6aEEeeyyPT5uA-eoA" defaultValue="&quot;UrlBolt&quot;" name="bolttype" staticAttribute="true">
+      <modelElement href="LifeRayStream.uml#_ZDa0EqaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aKmewKaEEeeyyPT5uA-eoA" label="-"/>
+      <cardinality xmi:id="_aKmewaaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <type xmi:id="_aKmewqaEEeeyyPT5uA-eoA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_aKmew6aEEeeyyPT5uA-eoA" name="spoutbuilder">
+      <modelElement href="LifeRayStream.uml#_ZDbbIKaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aKmexKaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKmexaaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <type xmi:id="_aKmexqaEEeeyyPT5uA-eoA" name="URLSpoutBuilder">
+        <modelElement href="LifeRayStream.uml#_Y4D4oKaEEeeyyPT5uA-eoA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_aKmex6aEEeeyyPT5uA-eoA" name="boltbuilder">
+      <modelElement href="LifeRayStream.uml#_ZDdQUKaEEeeyyPT5uA-eoA"/>
+      <stereotypes xmi:id="_wBjjwKaEEeeyyPT5uA-eoA" name="Generics"/>
+      <stereotypes xmi:id="_wBkx4KaEEeeyyPT5uA-eoA" name="Generics"/>
+      <stereotypes xmi:id="_wB0pgKaEEeeyyPT5uA-eoA" name="Generics"/>
+      <stereotypes xmi:id="_9AuTcKaFEeeyyPT5uA-eoA" name="Generics"/>
+      <stereotypes xmi:id="_9AvhkKaFEeeyyPT5uA-eoA" name="Generics"/>
+      <stereotypes xmi:id="_9A888KaFEeeyyPT5uA-eoA" name="Generics"/>
+      <visibility xmi:id="_aKmeyaaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKmeyqaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <type xmi:id="_aKmey6aEEeeyyPT5uA-eoA" name="URLBoltBuilder">
+        <modelElement href="LifeRayStream.uml#_Y4AOQKaEEeeyyPT5uA-eoA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_aKmezKaEEeeyyPT5uA-eoA" name="buildTopology">
+      <modelElement href="LifeRayStream.uml#_Y4LNYKaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aKmezaaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKmezqaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_aKmez6aEEeeyyPT5uA-eoA" name="spoutName">
+        <modelElement href="LifeRayStream.uml#_Y4LNYaaEEeeyyPT5uA-eoA"/>
+        <cardinality xmi:id="_aKme0KaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+        <type xmi:id="_aKme0aaEEeeyyPT5uA-eoA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_aKme0qaEEeeyyPT5uA-eoA" name="boltName">
+        <modelElement href="LifeRayStream.uml#_Y4LNYqaEEeeyyPT5uA-eoA"/>
+        <cardinality xmi:id="_aKme06aEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+        <type xmi:id="_aKme1KaEEeeyyPT5uA-eoA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_aKme1aaEEeeyyPT5uA-eoA" name="submit_topology">
+      <modelElement href="LifeRayStream.uml#_Y4L0cKaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aKme1qaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKme16aEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_aKme2KaEEeeyyPT5uA-eoA" name="topologyName">
+        <modelElement href="LifeRayStream.uml#_Y4L0caaEEeeyyPT5uA-eoA"/>
+        <cardinality xmi:id="_aKme2aaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+        <type xmi:id="_aKme2qaEEeeyyPT5uA-eoA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_aKme26aEEeeyyPT5uA-eoA" name="buildSpout">
+      <modelElement href="LifeRayStream.uml#_Y_1UkKaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aKme3KaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKme3aaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_aKme3qaEEeeyyPT5uA-eoA" name="SpoutName">
+        <modelElement href="LifeRayStream.uml#_Y_17oKaEEeeyyPT5uA-eoA"/>
+        <cardinality xmi:id="_aKme36aEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+        <type xmi:id="_aKme4KaEEeeyyPT5uA-eoA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_aKme4aaEEeeyyPT5uA-eoA" name="urlspout">
+        <modelElement href="LifeRayStream.uml#_Y_17oaaEEeeyyPT5uA-eoA"/>
+        <cardinality xmi:id="_aKme4qaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+        <type xmi:id="_aKme46aEEeeyyPT5uA-eoA" name="SpringUrlSpout">
+          <modelElement href="LifeRayStream.uml#_Y35gkKaEEeeyyPT5uA-eoA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_aKme5KaEEeeyyPT5uA-eoA" name="buildBolt">
+      <modelElement href="LifeRayStream.uml#_Y_17oqaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aKme5aaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKme5qaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_aKme56aEEeeyyPT5uA-eoA" name="boltName">
+        <modelElement href="LifeRayStream.uml#_Y_17o6aEEeeyyPT5uA-eoA"/>
+        <cardinality xmi:id="_aKme6KaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+        <type xmi:id="_aKme6aaEEeeyyPT5uA-eoA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_aKme6qaEEeeyyPT5uA-eoA" name="urlbolt">
+        <modelElement href="LifeRayStream.uml#_Y_17pKaEEeeyyPT5uA-eoA"/>
+        <cardinality xmi:id="_aKme66aEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+        <type xmi:id="_aKme7KaEEeeyyPT5uA-eoA" name="SpringUrlBolt">
+          <modelElement href="LifeRayStream.uml#_Y3sFMKaEEeeyyPT5uA-eoA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_aKme7aaEEeeyyPT5uA-eoA" name="SpoutName">
+        <modelElement href="LifeRayStream.uml#_Y_2isKaEEeeyyPT5uA-eoA"/>
+        <cardinality xmi:id="_aKme7qaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+        <type xmi:id="_aKme76aEEeeyyPT5uA-eoA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_aKme8KaEEeeyyPT5uA-eoA" name="buildCluster">
+      <modelElement href="LifeRayStream.uml#_ZCY5UKaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aKme8aaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aKme8qaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_aKme86aEEeeyyPT5uA-eoA" name="topologyName">
+        <modelElement href="LifeRayStream.uml#_ZCY5UaaEEeeyyPT5uA-eoA"/>
+        <cardinality xmi:id="_aKme9KaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+        <type xmi:id="_aKme9aaEEeeyyPT5uA-eoA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_aKme9qaEEeeyyPT5uA-eoA" name="config">
+        <modelElement href="LifeRayStream.uml#_ZCY5UqaEEeeyyPT5uA-eoA"/>
+        <cardinality xmi:id="_aKme96aEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+        <type xmi:id="_aKme-KaEEeeyyPT5uA-eoA" name="Config">
+          <modelElement href="LifeRayStream.uml#_Y-fQwKaEEeeyyPT5uA-eoA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_aK0hAKaEEeeyyPT5uA-eoA" name="UrlTopologyspring2" associationsIn="_aKvogKaEEeeyyPT5uA-eoA _aKwPkKaEEeeyyPT5uA-eoA _aKw2oKaEEeeyyPT5uA-eoA _aKxdtKaEEeeyyPT5uA-eoA _aKxdtaaEEeeyyPT5uA-eoA">
+    <modelElement href="LifeRayStream.uml#_Y4TJMKaEEeeyyPT5uA-eoA"/>
+    <visualProperties xmi:id="_aK0hAaaEEeeyyPT5uA-eoA" position="587.0,-75.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_aK0hAqaEEeeyyPT5uA-eoA" label="+"/>
+    <attributes xmi:id="_aK0hA6aEEeeyyPT5uA-eoA" name="builder">
+      <modelElement href="LifeRayStream.uml#_ZDeecKaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aK0hBKaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aK0hBaaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <type xmi:id="_aK0hBqaEEeeyyPT5uA-eoA" name="TopologyBuilder">
+        <modelElement href="LifeRayStream.uml#_Y-ge4aaEEeeyyPT5uA-eoA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_aK0hB6aEEeeyyPT5uA-eoA" name="urlspout">
+      <modelElement href="LifeRayStream.uml#_ZDfFgKaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aK0hCKaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aK0hCaaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <type xmi:id="_aK0hCqaEEeeyyPT5uA-eoA" name="SpringUrlSpout">
+        <modelElement href="LifeRayStream.uml#_Y35gkKaEEeeyyPT5uA-eoA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_aK0hC6aEEeeyyPT5uA-eoA" name="urlbolt">
+      <modelElement href="LifeRayStream.uml#_ZDfFgaaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aK0hDKaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aK0hDaaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <type xmi:id="_aK0hDqaEEeeyyPT5uA-eoA" name="SpringUrlBolt">
+        <modelElement href="LifeRayStream.uml#_Y3sFMKaEEeeyyPT5uA-eoA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_aK0hD6aEEeeyyPT5uA-eoA" name="config">
+      <modelElement href="LifeRayStream.uml#_ZDfskKaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aK0hEKaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aK0hEaaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <type xmi:id="_aK0hEqaEEeeyyPT5uA-eoA" name="Config">
+        <modelElement href="LifeRayStream.uml#_Y-fQwKaEEeeyyPT5uA-eoA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_aK0hE6aEEeeyyPT5uA-eoA" name="cluster">
+      <modelElement href="LifeRayStream.uml#_ZDfskaaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aK0hFKaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aK0hFaaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <type xmi:id="_aK0hFqaEEeeyyPT5uA-eoA" name="LocalCluster">
+        <modelElement href="LifeRayStream.uml#_Y-f30aaEEeeyyPT5uA-eoA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_aK0hF6aEEeeyyPT5uA-eoA" name="spoutName">
+      <modelElement href="LifeRayStream.uml#_ZDgToKaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aK0hGKaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aK0hGaaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <type xmi:id="_aK0hGqaEEeeyyPT5uA-eoA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_aK0hG6aEEeeyyPT5uA-eoA" name="boltName">
+      <modelElement href="LifeRayStream.uml#_ZDgToaaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aK0hHKaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aK0hHaaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <type xmi:id="_aK0hHqaEEeeyyPT5uA-eoA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_aK0hH6aEEeeyyPT5uA-eoA" name="topologyName">
+      <modelElement href="LifeRayStream.uml#_ZDgToqaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aK0hIKaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aK0hIaaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <type xmi:id="_aK0hIqaEEeeyyPT5uA-eoA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_aK0hI6aEEeeyyPT5uA-eoA" defaultValue="&quot;UrlSpout&quot;" name="spout_type" staticAttribute="true">
+      <modelElement href="LifeRayStream.uml#_ZDg6sKaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aK0hJKaEEeeyyPT5uA-eoA" label="-"/>
+      <cardinality xmi:id="_aK0hJaaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <type xmi:id="_aK0hJqaEEeeyyPT5uA-eoA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_aK0hJ6aEEeeyyPT5uA-eoA" defaultValue="&quot;UrlBolt&quot;" name="bolt_type" staticAttribute="true">
+      <modelElement href="LifeRayStream.uml#_ZDg6sqaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aK0hKKaEEeeyyPT5uA-eoA" label="-"/>
+      <cardinality xmi:id="_aK0hKaaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <type xmi:id="_aK0hKqaEEeeyyPT5uA-eoA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_aK0hK6aEEeeyyPT5uA-eoA" name="buildTopology">
+      <modelElement href="LifeRayStream.uml#_Y4U-YKaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aK0hLKaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aK0hLaaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_aK0hLqaEEeeyyPT5uA-eoA" name="spoutName">
+        <modelElement href="LifeRayStream.uml#_Y4U-YaaEEeeyyPT5uA-eoA"/>
+        <cardinality xmi:id="_aK0hL6aEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+        <type xmi:id="_aK0hMKaEEeeyyPT5uA-eoA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_aK0hMaaEEeeyyPT5uA-eoA" name="boltName">
+        <modelElement href="LifeRayStream.uml#_Y4VlcKaEEeeyyPT5uA-eoA"/>
+        <cardinality xmi:id="_aK0hMqaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+        <type xmi:id="_aK0hM6aEEeeyyPT5uA-eoA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_aK0hNKaEEeeyyPT5uA-eoA" name="create_Bolt_Instance">
+      <modelElement href="LifeRayStream.uml#_Y4VlcaaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aK0hNaaEEeeyyPT5uA-eoA" label="-"/>
+      <cardinality xmi:id="_aK0hNqaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_aK0hN6aEEeeyyPT5uA-eoA">
+        <modelElement href="LifeRayStream.uml#_Y_6NEKaEEeeyyPT5uA-eoA"/>
+        <type xmi:id="_aK0hOKaEEeeyyPT5uA-eoA" name="SpringUrlBolt">
+          <modelElement href="LifeRayStream.uml#_Y3sFMKaEEeeyyPT5uA-eoA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_aK0hOaaEEeeyyPT5uA-eoA" name="create_Spout_Instance">
+      <modelElement href="LifeRayStream.uml#_Y4WMgKaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aK0hOqaEEeeyyPT5uA-eoA" label="-"/>
+      <cardinality xmi:id="_aK0hO6aEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_aK0hPKaEEeeyyPT5uA-eoA">
+        <modelElement href="LifeRayStream.uml#_Y_60IKaEEeeyyPT5uA-eoA"/>
+        <type xmi:id="_aK0hPaaEEeeyyPT5uA-eoA" name="SpringUrlSpout">
+          <modelElement href="LifeRayStream.uml#_Y35gkKaEEeeyyPT5uA-eoA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_aK0hPqaEEeeyyPT5uA-eoA" name="submit_topology">
+      <modelElement href="LifeRayStream.uml#_Y4WzkKaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aK0hP6aEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aK0hQKaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_aK0hQaaEEeeyyPT5uA-eoA" name="topologyName">
+        <modelElement href="LifeRayStream.uml#_Y4WzkaaEEeeyyPT5uA-eoA"/>
+        <cardinality xmi:id="_aK0hQqaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+        <type xmi:id="_aK0hQ6aEEeeyyPT5uA-eoA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_aK0hRKaEEeeyyPT5uA-eoA" name="buildSpout">
+      <modelElement href="LifeRayStream.uml#_Y_60IaaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aK0hRaaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aK0hRqaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_aK0hR6aEEeeyyPT5uA-eoA" name="SpoutName">
+        <modelElement href="LifeRayStream.uml#_Y_60IqaEEeeyyPT5uA-eoA"/>
+        <cardinality xmi:id="_aK0hSKaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+        <type xmi:id="_aK0hSaaEEeeyyPT5uA-eoA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_aK0hSqaEEeeyyPT5uA-eoA" name="urlspout">
+        <modelElement href="LifeRayStream.uml#_Y_60I6aEEeeyyPT5uA-eoA"/>
+        <cardinality xmi:id="_aK0hS6aEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+        <type xmi:id="_aK0hTKaEEeeyyPT5uA-eoA" name="SpringUrlSpout">
+          <modelElement href="LifeRayStream.uml#_Y35gkKaEEeeyyPT5uA-eoA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_aK0hTaaEEeeyyPT5uA-eoA" name="buildBolt">
+      <modelElement href="LifeRayStream.uml#_Y_7bMKaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aK0hTqaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aK0hT6aEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_aK0hUKaEEeeyyPT5uA-eoA" name="boltName">
+        <modelElement href="LifeRayStream.uml#_Y_7bMaaEEeeyyPT5uA-eoA"/>
+        <cardinality xmi:id="_aK0hUaaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+        <type xmi:id="_aK0hUqaEEeeyyPT5uA-eoA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_aK0hU6aEEeeyyPT5uA-eoA" name="urlbolt">
+        <modelElement href="LifeRayStream.uml#_Y_7bMqaEEeeyyPT5uA-eoA"/>
+        <cardinality xmi:id="_aK0hVKaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+        <type xmi:id="_aK0hVaaEEeeyyPT5uA-eoA" name="SpringUrlBolt">
+          <modelElement href="LifeRayStream.uml#_Y3sFMKaEEeeyyPT5uA-eoA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_aK0hVqaEEeeyyPT5uA-eoA" name="SpoutName">
+        <modelElement href="LifeRayStream.uml#_Y_7bM6aEEeeyyPT5uA-eoA"/>
+        <cardinality xmi:id="_aK0hV6aEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+        <type xmi:id="_aK0hWKaEEeeyyPT5uA-eoA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_aK0hWaaEEeeyyPT5uA-eoA" name="buildCluster">
+      <modelElement href="LifeRayStream.uml#_ZCb8oKaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aK0hWqaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aK0hW6aEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_aK0hXKaEEeeyyPT5uA-eoA" name="topologyName">
+        <modelElement href="LifeRayStream.uml#_ZCcjsKaEEeeyyPT5uA-eoA"/>
+        <cardinality xmi:id="_aK0hXaaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+        <type xmi:id="_aK0hXqaEEeeyyPT5uA-eoA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_aK0hX6aEEeeyyPT5uA-eoA" name="config">
+        <modelElement href="LifeRayStream.uml#_ZCcjsaaEEeeyyPT5uA-eoA"/>
+        <cardinality xmi:id="_aK0hYKaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+        <type xmi:id="_aK0hYaaEEeeyyPT5uA-eoA" name="Config">
+          <modelElement href="LifeRayStream.uml#_Y-fQwKaEEeeyyPT5uA-eoA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_aK-SAKaEEeeyyPT5uA-eoA" name="Util">
+    <modelElement href="LifeRayStream.uml#_Y4dhQKaEEeeyyPT5uA-eoA"/>
+    <visualProperties xmi:id="_aK-SAaaEEeeyyPT5uA-eoA" position="-505.0,621.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_aK-SAqaEEeeyyPT5uA-eoA" label="+"/>
+    <operations xmi:id="_aK-SA6aEEeeyyPT5uA-eoA" name="initializeContext" staticOperation="true">
+      <modelElement href="LifeRayStream.uml#_Y4eIUKaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aK-SBKaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aK-SBaaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_aK-SBqaEEeeyyPT5uA-eoA">
+        <modelElement href="LifeRayStream.uml#_ZCe_8aaEEeeyyPT5uA-eoA"/>
+        <type xmi:id="_aK-SB6aEEeeyyPT5uA-eoA" name="Object">
+          <modelElement href="LifeRayStream.uml#_ZCeY4aaEEeeyyPT5uA-eoA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_aK-SCKaEEeeyyPT5uA-eoA" name="beanName">
+        <modelElement href="LifeRayStream.uml#_Y4evYKaEEeeyyPT5uA-eoA"/>
+        <cardinality xmi:id="_aK-SCaaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+        <type xmi:id="_aK-SCqaEEeeyyPT5uA-eoA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_aK-SC6aEEeeyyPT5uA-eoA" name="intializeBean" staticOperation="true">
+      <modelElement href="LifeRayStream.uml#_Y4fWcKaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aK-SDKaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aK-SDaaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_aK-SDqaEEeeyyPT5uA-eoA">
+        <modelElement href="LifeRayStream.uml#_ZCfnAKaEEeeyyPT5uA-eoA"/>
+        <type xmi:id="_aK-SD6aEEeeyyPT5uA-eoA" name="Object">
+          <modelElement href="LifeRayStream.uml#_ZCeY4aaEEeeyyPT5uA-eoA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_aK-SEKaEEeeyyPT5uA-eoA" name="stringValues">
+        <modelElement href="LifeRayStream.uml#_Y4fWcaaEEeeyyPT5uA-eoA"/>
+        <cardinality xmi:id="_aK-SEaaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+        <type xmi:id="_aK-SEqaEEeeyyPT5uA-eoA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_aK-SE6aEEeeyyPT5uA-eoA" name="intializeSpringUrlSpoutBean" staticOperation="true">
+      <modelElement href="LifeRayStream.uml#_Y4f9gKaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aK-SFKaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aK-SFaaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_aK-SFqaEEeeyyPT5uA-eoA">
+        <modelElement href="LifeRayStream.uml#_Y_-egKaEEeeyyPT5uA-eoA"/>
+        <type xmi:id="_aK-SF6aEEeeyyPT5uA-eoA" name="SpringUrlSpout">
+          <modelElement href="LifeRayStream.uml#_Y35gkKaEEeeyyPT5uA-eoA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_aK-SGKaEEeeyyPT5uA-eoA" name="stringValues">
+        <modelElement href="LifeRayStream.uml#_Y4f9gaaEEeeyyPT5uA-eoA"/>
+        <cardinality xmi:id="_aK-SGaaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+        <type xmi:id="_aK-SGqaEEeeyyPT5uA-eoA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_aK-SG6aEEeeyyPT5uA-eoA" name="intializeSpringUrlBoltBean" staticOperation="true">
+      <modelElement href="LifeRayStream.uml#_Y4gkkKaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aK-SHKaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aK-SHaaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_aK-SHqaEEeeyyPT5uA-eoA">
+        <modelElement href="LifeRayStream.uml#_Y__FkKaEEeeyyPT5uA-eoA"/>
+        <type xmi:id="_aK-SH6aEEeeyyPT5uA-eoA" name="SpringUrlBolt">
+          <modelElement href="LifeRayStream.uml#_Y3sFMKaEEeeyyPT5uA-eoA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_aK-SIKaEEeeyyPT5uA-eoA" name="stringValues">
+        <modelElement href="LifeRayStream.uml#_Y4gkkaaEEeeyyPT5uA-eoA"/>
+        <cardinality xmi:id="_aK-SIaaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+        <type xmi:id="_aK-SIqaEEeeyyPT5uA-eoA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_aK-SI6aEEeeyyPT5uA-eoA" name="spoutUrlMap" staticOperation="true">
+      <modelElement href="LifeRayStream.uml#_Y4hLoKaEEeeyyPT5uA-eoA"/>
+      <visibility xmi:id="_aK-SJKaEEeeyyPT5uA-eoA" label="+"/>
+      <cardinality xmi:id="_aK-SJaaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_aK-SJqaEEeeyyPT5uA-eoA">
+        <modelElement href="LifeRayStream.uml#_Y4hysKaEEeeyyPT5uA-eoA"/>
+        <type xmi:id="_aK-SJ6aEEeeyyPT5uA-eoA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_aK-SKKaEEeeyyPT5uA-eoA" name="spoutName">
+        <modelElement href="LifeRayStream.uml#_Y4hLoaaEEeeyyPT5uA-eoA"/>
+        <cardinality xmi:id="_aK-SKaaEEeeyyPT5uA-eoA" label="1" max="1" min="1"/>
+        <type xmi:id="_aK-SKqaEEeeyyPT5uA-eoA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

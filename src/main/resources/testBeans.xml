@@ -1,0 +1,64 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+   	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+	http://www.springframework.org/schema/aop 
+	http://www.springframework.org/schema/aop/spring-aop-3.2.xsd
+	http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+
+	
+  	<context:annotation-config/>
+	<!--  <aop:scoped-proxy proxy-target-class="true"/> -->
+	<bean id ="testPrototype" class="com.storm.util.testPrototype">
+		<property name="url" value ="NSE INFY"></property>
+		<property name="values" ref="values"></property>
+		
+	</bean>
+	
+	<bean id="values" class="org.apache.storm.tuple.Values">
+	</bean>
+
+	<bean id="hashmap" class="java.util.HashMap">
+	
+	</bean>
+	
+	<bean id="url" class="java.lang.String">
+		<constructor-arg>
+			<value>
+		 	<![CDATA[http://finance.google.com/finance/info?client=ig&q=NSE:]]>
+			</value>
+		</constructor-arg>
+	</bean>
+	
+	
+	
+	<!-- <bean id="testvalues" class ="com.storm.junit.testvalues">
+		<property name="values" ref="values"> </property>
+	</bean> -->
+	
+	<bean id="loadtable" class="com.storm.util.LoadTableDetails">
+		<property name="fileEquityToScreen" value ="c://temp//EquityToScreen.txt"/>
+		<property name="fileProviderDetailsUrl" value ="c://temp//LiveProvidersUrlDetails.txt"/>
+		<property name="equityUrlTable" ref="hashmap"></property>
+		
+		
+	</bean>
+	
+	<bean id="singleProto" class="com.storm.util.singleproto" scope="prototype">
+		<property name="values" ref="values"></property>
+		<property name="lt" ref="loadtable"></property>
+		
+	</bean>
+	
+		<bean id="Proto" class="com.storm.util.Proto">
+		<property name="spt" ref="singleProto"></property>
+		
+	</bean>
+	
+	
+</beans>

@@ -1,0 +1,57 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+   	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+	http://www.springframework.org/schema/aop 
+	http://www.springframework.org/schema/aop/spring-aop-3.2.xsd">
+
+	<import resource="classpath:Utilities.xml" />
+
+	<bean id="UrlTopologyspring" class="com.storm.url.stream.spring.UrlTopologyspring">
+		<property name="builder" ref="TopologyBuilder" />
+		<property name="cluster" ref="LocalCluster" />
+		<property name="config" ref="Config" />
+		<property name="urlbolt" ref="UrlBolt" />
+		<property name="urlspout" ref="UrlSpout" />
+		<property name="spoutName" value="SpringSpout" />
+		<property name="boltName" value="SpringBolt" />
+		<property name="topologyName" value="SpringTopology" />
+		<property name="spoutbuilder" ref="spoutbuilder"/>
+		<property name="boltbuilder" ref="boltbuilder"/>
+	</bean>
+
+	<!-- Storm Classes -->
+	<bean id="TopologyBuilder" class="org.apache.storm.topology.TopologyBuilder" />
+	<bean id="LocalCluster" class="org.apache.storm.LocalCluster" />
+	<bean id="Config" class="org.apache.storm.Config" />
+	<bean id="values" class="org.apache.storm.tuple.Values" scope="prototype">
+		<aop:scoped-proxy proxy-target-class="true" />
+	</bean>
+
+	<!-- Application Classes -->
+	<bean id="UrlBolt" class="com.storm.url.stream.spring.SpringUrlBolt" />
+	<bean id="UrlSpout" class="com.storm.url.stream.spring.SpringUrlSpout" scope="prototype">
+		<property name="values" ref="values"></property>
+		<property name="lt" ref="loadtable"></property>
+	</bean>
+
+	<bean id="url" class="java.lang.String">
+		<constructor-arg>
+			<value>
+		 	<![CDATA[http://finance.google.com/finance/info?client=ig&q=NSE:INFY]]>
+			</value>
+		</constructor-arg>
+	</bean>
+	<bean id="spoutbuilder" class="com.storm.url.stream.spring.URLSpoutBuilder" scope="prototype" />
+	<bean id="boltbuilder" class="com.storm.url.stream.spring.URLBoltBuilder" scope="prototype" />
+	
+
+
+
+
+
+
+
+</beans>

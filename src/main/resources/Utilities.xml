@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+   	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+	http://www.springframework.org/schema/aop 
+	http://www.springframework.org/schema/aop/spring-aop-3.2.xsd
+	http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+
+
+
+
+	<bean id="hashmap" class="java.util.HashMap"></bean>
+<!-- 
+	<bean id="loadtable" class="com.storm.util.LoadTableDetails">
+		<property name="fileEquityToScreen" value="c://temp//EquityToScreen.txt" />
+		<property name="fileProviderDetailsUrl" value="c://temp//LiveProvidersUrlDetails.txt" />
+		<property name="equityUrlTable" ref="hashmap"></property>
+	</bean>
+	 -->
+	
+	<bean id="loadtable" class="com.storm.util.StaticLoadTableDetails">
+	
+	<!--  use this for real data values 	
+		<property name="fileEquityToScreen" value="c://temp//EquityToScreen.txt" />
+		<property name="fileProviderDetailsUrl" value="c://temp//LiveProvidersUrlDetails.txt" />
+		
+	 -->
+	 	<property name="fileEquityToScreen" value="c://temp//states.txt" />
+		<property name="fileProviderDetailsUrl" value="c://temp//Urldetails.txt" />
+		<property name="equityUrlTable" ref="hashmap"></property>
+	</bean>
+
+</beans>
