@@ -18,6 +18,7 @@ public class SpringUrlSpout extends BaseRichSpout {
 	 */
 	private static final long serialVersionUID = 1L;
 	private SpoutOutputCollector collector;
+	private ISpoutBuilder spoutBuilder;
 	private String url;
 	private Values values;
 	private String spoutName;
@@ -88,6 +89,14 @@ public class SpringUrlSpout extends BaseRichSpout {
 
 	public void setLt(StaticLoadTableDetails lt) {
 		this.lt = lt;
+	}
+
+	public ISpoutBuilder getSpoutBuilder() {
+		return spoutBuilder;
+	}
+
+	public void setSpoutBuilder(ISpoutBuilder spoutBuilder) {
+		this.spoutBuilder = spoutBuilder;
 	}
 
 }

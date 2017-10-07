@@ -41,6 +41,12 @@ public class SpringUrlBolt2 extends BaseRichBolt {
 			System.out.println("Executing Bolt");
 			getUrlData(url);
 			collector.ack(tuple);
+		} catch (InterruptedException | MalformedURLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}finally
+		{
+			
 		}
 			
 			/*

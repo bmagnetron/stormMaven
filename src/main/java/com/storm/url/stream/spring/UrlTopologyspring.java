@@ -15,9 +15,12 @@ public class UrlTopologyspring {
 	private String topologyName;
 	private static final String spouttype = "UrlSpout";
 	private static final String bolttype = "UrlBolt";
-	private URLSpoutBuilder spoutbuilder;
+ /*	private URLSpoutBuilder spoutbuilder;
 	private URLBoltBuilder<?> boltbuilder;
 	
+*/
+	private ISpoutBuilder spoutbuilder;
+	private IBoltBuilder boltbuilder;
 	
 	public void buildTopology(String spoutName, String boltName) 
 	{	
@@ -34,7 +37,7 @@ public class UrlTopologyspring {
 	
 	
 	
-	public URLBoltBuilder<?> getBoltbuilder() {
+	public IBoltBuilder getBoltbuilder() {
 		return boltbuilder;
 	}
 
@@ -72,6 +75,7 @@ public class UrlTopologyspring {
 
 	}
 
+	/*
 	
 	public void buildSpout(String SpoutName, SpringUrlSpout urlspout) {
 		builder.setSpout(SpoutName, urlspout);
@@ -81,6 +85,7 @@ public class UrlTopologyspring {
 		builder.setBolt(boltName, urlbolt).shuffleGrouping(SpoutName);
 	}
 
+*/
 	public void buildCluster(String topologyName, Config config) {
 
 		cluster.submitTopology(topologyName, config, getBuilder().createTopology());
@@ -149,7 +154,7 @@ public class UrlTopologyspring {
 		this.topologyName = topologyName;
 	}
 
-	public URLSpoutBuilder getSpoutbuilder() {
+	public ISpoutBuilder getSpoutbuilder() {
 		return spoutbuilder;
 	}
 

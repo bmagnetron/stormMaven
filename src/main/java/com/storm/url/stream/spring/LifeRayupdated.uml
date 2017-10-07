@@ -1,0 +1,1152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_LR3iYKbJEeeyyPT5uA-eoA" name="LifeRayupdated">
+    <eAnnotations xmi:id="_LSZt4KbJEeeyyPT5uA-eoA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_LSaU8KbJEeeyyPT5uA-eoA" source="codegen">
+        <details xmi:id="_LSaU8abJEeeyyPT5uA-eoA" key="codegenDirectory" value="/LifeRay/src/main/java"/>
+        <details xmi:id="_LyimgKbJEeeyyPT5uA-eoA" key="AssociatedSourceCode" value="/LifeRay/src/main/java/com/storm/url/stream/spring/ApplicationContextUtil.java;2423784598/1;/LifeRay/src/main/java/com/storm/url/stream/spring/IBoltBuilder.java;1724275052/1;/LifeRay/src/main/java/com/storm/url/stream/spring/ISpoutBuilder.java;3999634529/1;/LifeRay/src/main/java/com/storm/url/stream/spring/SpringUrlBolt.java;2134994248/1;/LifeRay/src/main/java/com/storm/url/stream/spring/SpringUrlBolt2.java;792692609/1;/LifeRay/src/main/java/com/storm/url/stream/spring/Util.java;3979546073/1;/LifeRay/src/main/java/com/storm/url/stream/spring/URLBoltBuilder.java;2491011868/1;/LifeRay/src/main/java/com/storm/url/stream/spring/URLSpoutBuilder.java;2612319019/1;/LifeRay/src/main/java/com/storm/url/stream/spring/UrlTopologyRun.java;1759728713/1;/LifeRay/src/main/java/com/storm/url/stream/spring/UrlTopologyspring.java;2253239573/1;/LifeRay/src/main/java/com/storm/url/stream/spring/UrlTopologyspring2.java;2725012085/1;/LifeRay/src/main/java/com/storm/url/stream/spring/SpringUrlSpout.java;3035998328/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_Lj7iwKbJEeeyyPT5uA-eoA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_Lj7iwabJEeeyyPT5uA-eoA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_Lj7iwqbJEeeyyPT5uA-eoA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_Lj7iw6bJEeeyyPT5uA-eoA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_Lj7ixKbJEeeyyPT5uA-eoA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_Lj8J0KbJEeeyyPT5uA-eoA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_Lj8J0abJEeeyyPT5uA-eoA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_Lj8J0qbJEeeyyPT5uA-eoA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_Lj8J06bJEeeyyPT5uA-eoA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Li6PEKbJEeeyyPT5uA-eoA" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_Li62IKbJEeeyyPT5uA-eoA" name="storm">
+        <packagedElement xmi:type="uml:Package" xmi:id="_Li62IabJEeeyyPT5uA-eoA" name="url">
+          <packagedElement xmi:type="uml:Package" xmi:id="_Li62IqbJEeeyyPT5uA-eoA" name="stream">
+            <packagedElement xmi:type="uml:Package" xmi:id="_Li9SYKbJEeeyyPT5uA-eoA" name="spring">
+              <packagedElement xmi:type="uml:Class" xmi:id="_Lj5tkKbJEeeyyPT5uA-eoA" name="ApplicationContextUtil">
+                <ownedAttribute xmi:id="_LnHZoKbJEeeyyPT5uA-eoA" name="appContext" isStatic="true" type="_Ll21YabJEeeyyPT5uA-eoA" isReadOnly="true" association="_LnplIKbJEeeyyPT5uA-eoA"/>
+                <interfaceRealization xmi:id="_Lmsi4KbJEeeyyPT5uA-eoA" client="_Lj5tkKbJEeeyyPT5uA-eoA" supplier="_Ll3ccabJEeeyyPT5uA-eoA" contract="_Ll3ccabJEeeyyPT5uA-eoA"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_LnX4UqbJEeeyyPT5uA-eoA" name="setApplicationContext" specification="_LmtxAKbJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_LnX4U6bJEeeyyPT5uA-eoA" name="applicationContext" type="_Ll21YabJEeeyyPT5uA-eoA"/>
+                  <language>java</language>
+                  <body>appContext = applicationContext;&#xD;
+ </body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_LmtxAKbJEeeyyPT5uA-eoA" name="setApplicationContext" method="_LnX4UqbJEeeyyPT5uA-eoA" raisedException="_Ll1nQKbJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_LmtxAabJEeeyyPT5uA-eoA" name="applicationContext" type="_Ll21YabJEeeyyPT5uA-eoA"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_Lj-mEKbJEeeyyPT5uA-eoA" name="IBoltBuilder">
+                <ownedOperation xmi:id="_Lj_NIKbJEeeyyPT5uA-eoA" name="createBoltInstance">
+                  <ownedParameter xmi:id="_Lj_0MKbJEeeyyPT5uA-eoA" name="boltType">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_Ll6fwKbJEeeyyPT5uA-eoA" type="_LkBpYKbJEeeyyPT5uA-eoA" direction="return"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_LkAbQKbJEeeyyPT5uA-eoA" name="ISpoutBuilder">
+                <ownedOperation xmi:id="_LkBCUKbJEeeyyPT5uA-eoA" name="createSpoutInstance">
+                  <ownedParameter xmi:id="_LkBCUabJEeeyyPT5uA-eoA" name="spoutType">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_Ll7G0KbJEeeyyPT5uA-eoA" type="_Lkh_sKbJEeeyyPT5uA-eoA" direction="return"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_LkBpYKbJEeeyyPT5uA-eoA" name="SpringUrlBolt">
+                <generalization xmi:id="_Lmz3oKbJEeeyyPT5uA-eoA" general="_LmCbkabJEeeyyPT5uA-eoA"/>
+                <ownedAttribute xmi:id="_LnJO0KbJEeeyyPT5uA-eoA" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_LnJO0abJEeeyyPT5uA-eoA" value="1L"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_LnJO0qbJEeeyyPT5uA-eoA" name="collector" visibility="private" type="_LmAmYabJEeeyyPT5uA-eoA" association="_LnqzQKbJEeeyyPT5uA-eoA"/>
+                <ownedAttribute xmi:id="_LnJ14abJEeeyyPT5uA-eoA" name="data" visibility="package">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_LnKc8abJEeeyyPT5uA-eoA" name="oos" visibility="private" type="_Ll88AabJEeeyyPT5uA-eoA" association="_LnraUabJEeeyyPT5uA-eoA"/>
+                <ownedAttribute xmi:id="_LnLEBKbJEeeyyPT5uA-eoA" name="br" visibility="private" type="_Ll7G0abJEeeyyPT5uA-eoA" association="_LnsBYabJEeeyyPT5uA-eoA"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_LnYfYKbJEeeyyPT5uA-eoA" name="execute" specification="_Lmu_IKbJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_LnYfYabJEeeyyPT5uA-eoA" name="tuple" type="_LmDpsabJEeeyyPT5uA-eoA"/>
+                  <language>java</language>
+                  <body>URL url;&#xD;
+		try {&#xD;
+			Thread.sleep(1000);&#xD;
+			url = new URL(tuple.getString(0));&#xD;
+			System.out.println(&quot;Executing Bolt&quot;);&#xD;
+			print(getUrlData(url));&#xD;
+&#xD;
+		} catch (IOException | InterruptedException e) {&#xD;
+			e.printStackTrace();&#xD;
+		}&#xD;
+&#xD;
+		collector.ack(tuple);&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_LnYfYqbJEeeyyPT5uA-eoA" name="prepare" specification="_LmwNQqbJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_LnYfY6bJEeeyyPT5uA-eoA" name="conf" type="_Ll__UabJEeeyyPT5uA-eoA"/>
+                  <ownedParameter xmi:id="_LnYfZKbJEeeyyPT5uA-eoA" name="context" type="_LmBNcabJEeeyyPT5uA-eoA"/>
+                  <ownedParameter xmi:id="_LnYfZabJEeeyyPT5uA-eoA" name="outputcollector" type="_LmAmYabJEeeyyPT5uA-eoA"/>
+                  <language>java</language>
+                  <body>System.out.println(&quot;bOLTnAME:&quot; + context.getComponentId(context.getThisTaskId()));&#xD;
+		this.collector = outputcollector;&#xD;
+&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_LnZGcKbJEeeyyPT5uA-eoA" name="declareOutputFields" specification="_LmxbYqbJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_LnZGcabJEeeyyPT5uA-eoA" name="declarer" type="_LmB0gabJEeeyyPT5uA-eoA"/>
+                  <language>java</language>
+                  <body>declarer.declare(new Fields(&quot;url&quot;));&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_LnZGcqbJEeeyyPT5uA-eoA" name="getUrlData" specification="_LmypgqbJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_LnZGc6bJEeeyyPT5uA-eoA" name="Url" type="_Ll-xMKbJEeeyyPT5uA-eoA"/>
+                  <ownedParameter xmi:id="_LnZGdKbJEeeyyPT5uA-eoA" type="_Ll7G0abJEeeyyPT5uA-eoA" direction="return"/>
+                  <language>java</language>
+                  <body>try {&#xD;
+&#xD;
+			HttpURLConnection conn = (HttpURLConnection) Url.openConnection();&#xD;
+			if (200 &lt;= conn.getResponseCode() &amp;&amp; conn.getResponseCode() &lt;= 299) {&#xD;
+				br = new BufferedReader(new InputStreamReader((conn.getInputStream())));&#xD;
+				Timestamp timestamp = new Timestamp(System.currentTimeMillis());&#xD;
+				System.out.println(timestamp);&#xD;
+&#xD;
+			} else {&#xD;
+				System.out.println(&quot;ResponseCode: &quot; + conn.getResponseCode());&#xD;
+			}&#xD;
+&#xD;
+		} catch (IOException e) {&#xD;
+&#xD;
+			e.printStackTrace();&#xD;
+		}&#xD;
+		return br;&#xD;
+&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_LnZGdabJEeeyyPT5uA-eoA" name="print" specification="_LmzQkabJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_LnZGdqbJEeeyyPT5uA-eoA" name="br" type="_Ll7G0abJEeeyyPT5uA-eoA"/>
+                  <language>java</language>
+                  <body>while ((data = br.readLine()) != null) {&#xD;
+			System.out.println(data);&#xD;
+&#xD;
+		}&#xD;
+&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_LkC3gKbJEeeyyPT5uA-eoA" name="Json_parser" visibility="private"/>
+                <ownedOperation xmi:id="_Lmu_IKbJEeeyyPT5uA-eoA" name="execute" method="_LnYfYKbJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_Lmu_IabJEeeyyPT5uA-eoA" name="tuple" type="_LmDpsabJEeeyyPT5uA-eoA"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_LmwNQqbJEeeyyPT5uA-eoA" name="prepare" method="_LnYfYqbJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_LmwNQ6bJEeeyyPT5uA-eoA" name="conf" type="_Ll__UabJEeeyyPT5uA-eoA"/>
+                  <ownedParameter xmi:id="_Lmw0UKbJEeeyyPT5uA-eoA" name="context" type="_LmBNcabJEeeyyPT5uA-eoA"/>
+                  <ownedParameter xmi:id="_Lmw0UabJEeeyyPT5uA-eoA" name="outputcollector" type="_LmAmYabJEeeyyPT5uA-eoA"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_LmxbYqbJEeeyyPT5uA-eoA" name="declareOutputFields" method="_LnZGcKbJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_LmxbY6bJEeeyyPT5uA-eoA" name="declarer" type="_LmB0gabJEeeyyPT5uA-eoA"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_LmypgqbJEeeyyPT5uA-eoA" name="getUrlData" method="_LnZGcqbJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_Lmypg6bJEeeyyPT5uA-eoA" name="Url" type="_Ll-xMKbJEeeyyPT5uA-eoA"/>
+                  <ownedParameter xmi:id="_LmzQkKbJEeeyyPT5uA-eoA" type="_Ll7G0abJEeeyyPT5uA-eoA" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_LmzQkabJEeeyyPT5uA-eoA" name="print" visibility="private" method="_LnZGdabJEeeyyPT5uA-eoA" raisedException="_Ll7t4abJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_LmzQkqbJEeeyyPT5uA-eoA" name="br" type="_Ll7G0abJEeeyyPT5uA-eoA"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_LkHwAKbJEeeyyPT5uA-eoA" name="SpringUrlBolt2">
+                <generalization xmi:id="_Lm5XMqbJEeeyyPT5uA-eoA" general="_LmCbkabJEeeyyPT5uA-eoA"/>
+                <ownedAttribute xmi:id="_LnMSIKbJEeeyyPT5uA-eoA" name="collector" visibility="private" type="_LmAmYabJEeeyyPT5uA-eoA" association="_LnsocabJEeeyyPT5uA-eoA"/>
+                <ownedAttribute xmi:id="_LnMSIqbJEeeyyPT5uA-eoA" name="data" visibility="package">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_LnM5MabJEeeyyPT5uA-eoA" name="oos" visibility="private" type="_Ll88AabJEeeyyPT5uA-eoA" association="_Lnt2kKbJEeeyyPT5uA-eoA"/>
+                <ownedAttribute xmi:id="_LnNgQabJEeeyyPT5uA-eoA" name="br" visibility="private" type="_Ll7G0abJEeeyyPT5uA-eoA" association="_LnudoabJEeeyyPT5uA-eoA"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_LnZtgKbJEeeyyPT5uA-eoA" name="execute" specification="_Lm1FwKbJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_LnZtgabJEeeyyPT5uA-eoA" name="tuple" type="_LmDpsabJEeeyyPT5uA-eoA"/>
+                  <language>java</language>
+                  <body>URL url;&#xD;
+		try {&#xD;
+			Thread.sleep(1000);&#xD;
+			url = new URL(tuple.getString(0));&#xD;
+			System.out.println(&quot;Executing Bolt&quot;);&#xD;
+			getUrlData(url);&#xD;
+			collector.ack(tuple);&#xD;
+		}&#xD;
+			&#xD;
+			/*&#xD;
+			HttpURLConnection conn = (HttpURLConnection) url.openConnection();&#xD;
+&#xD;
+			if (200 &lt;= conn.getResponseCode() &amp;&amp; conn.getResponseCode() &lt;= 299) {&#xD;
+&#xD;
+				br = new BufferedReader(new InputStreamReader((conn.getInputStream())));&#xD;
+				Timestamp timestamp = new Timestamp(System.currentTimeMillis());&#xD;
+				System.out.println(timestamp);&#xD;
+				while ((data = br.readLine()) != null) {&#xD;
+&#xD;
+					System.out.println(data);&#xD;
+&#xD;
+				}&#xD;
+				&#xD;
+		*/&#xD;
+				// JSON writer -- use it later&#xD;
+		/*		&#xD;
+				 * ObjectMapper mapper = new ObjectMapper();&#xD;
+				 * mapper.configure(JsonParser.Feature.ALLOW_COMMENTS, true);&#xD;
+				 * Timestamp timestamp = new&#xD;
+				 * Timestamp(System.currentTimeMillis()); Thread.sleep(1000); //&#xD;
+				 * To fetch url every second GAPI_MAP obj =&#xD;
+				 * mapper.readValue(conn.getInputStream(), GAPI_MAP.class); oos&#xD;
+				 * = new ObjectOutputStream(new&#xD;
+				 * FileOutputStream(&quot;c:\\temp\\stock1.txt&quot;));&#xD;
+				 * oos.writeObject(obj); oos.flush();&#xD;
+		*/		 &#xD;
+				// System.out.println(obj.toString() + &quot;,&quot; + timestamp);&#xD;
+				// System.out.println(obj.toString());&#xD;
+	/*		&#xD;
+			} else {&#xD;
+				System.out.println(&quot;ResponseCode: &quot; + conn.getResponseCode());&#xD;
+			}&#xD;
+&#xD;
+		} catch (IOException | InterruptedException e) {&#xD;
+&#xD;
+			e.printStackTrace();&#xD;
+		}&#xD;
+&#xD;
+collector.ack(tuple);&#xD;
+*/&#xD;
+&#xD;
+			&#xD;
+&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_LnZtgqbJEeeyyPT5uA-eoA" name="prepare" specification="_Lm2T4qbJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_LnZtg6bJEeeyyPT5uA-eoA" name="conf" type="_Ll__UabJEeeyyPT5uA-eoA"/>
+                  <ownedParameter xmi:id="_LnZthKbJEeeyyPT5uA-eoA" name="context" type="_LmBNcabJEeeyyPT5uA-eoA"/>
+                  <ownedParameter xmi:id="_LnZthabJEeeyyPT5uA-eoA" name="outputcollector" type="_LmAmYabJEeeyyPT5uA-eoA"/>
+                  <language>java</language>
+                  <body>System.out.println(&quot;bOLTnAME:&quot; + context.getComponentId(context.getThisTaskId()));&#xD;
+		this.collector = outputcollector;&#xD;
+&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_LnaUkKbJEeeyyPT5uA-eoA" name="declareOutputFields" specification="_Lm3iAqbJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_LnaUkabJEeeyyPT5uA-eoA" name="declarer" type="_LmB0gabJEeeyyPT5uA-eoA"/>
+                  <language>java</language>
+                  <body>declarer.declare(new Fields(&quot;url&quot;));&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_LnaUkqbJEeeyyPT5uA-eoA" name="getUrlData" specification="_Lm4wIqbJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_LnaUk6bJEeeyyPT5uA-eoA" name="Url" type="_Ll-xMKbJEeeyyPT5uA-eoA"/>
+                  <language>java</language>
+                  <body>try {&#xD;
+&#xD;
+			HttpURLConnection conn = (HttpURLConnection) Url.openConnection();&#xD;
+			if (200 &lt;= conn.getResponseCode() &amp;&amp; conn.getResponseCode() &lt;= 299) {&#xD;
+				br = new BufferedReader(new InputStreamReader((conn.getInputStream())));&#xD;
+				Timestamp timestamp = new Timestamp(System.currentTimeMillis());&#xD;
+				System.out.println(timestamp);&#xD;
+				print(br);&#xD;
+&#xD;
+			} else {&#xD;
+				System.out.println(&quot;ResponseCode: &quot; + conn.getResponseCode());&#xD;
+			}&#xD;
+&#xD;
+		} catch (IOException e) {&#xD;
+&#xD;
+			e.printStackTrace();&#xD;
+		}&#xD;
+&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_LnaUlKbJEeeyyPT5uA-eoA" name="print" specification="_Lm5XMKbJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_LnaUlabJEeeyyPT5uA-eoA" name="br" type="_Ll7G0abJEeeyyPT5uA-eoA"/>
+                  <language>java</language>
+                  <body>while ((data = br.readLine()) != null) {&#xD;
+			System.out.println(data);&#xD;
+&#xD;
+		}&#xD;
+&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_Lm1FwKbJEeeyyPT5uA-eoA" name="execute" method="_LnZtgKbJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_Lm1s0KbJEeeyyPT5uA-eoA" name="tuple" type="_LmDpsabJEeeyyPT5uA-eoA"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_Lm2T4qbJEeeyyPT5uA-eoA" name="prepare" method="_LnZtgqbJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_Lm2T46bJEeeyyPT5uA-eoA" name="conf" type="_Ll__UabJEeeyyPT5uA-eoA"/>
+                  <ownedParameter xmi:id="_Lm268KbJEeeyyPT5uA-eoA" name="context" type="_LmBNcabJEeeyyPT5uA-eoA"/>
+                  <ownedParameter xmi:id="_Lm268abJEeeyyPT5uA-eoA" name="outputcollector" type="_LmAmYabJEeeyyPT5uA-eoA"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_Lm3iAqbJEeeyyPT5uA-eoA" name="declareOutputFields" method="_LnaUkKbJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_Lm4JEKbJEeeyyPT5uA-eoA" name="declarer" type="_LmB0gabJEeeyyPT5uA-eoA"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_Lm4wIqbJEeeyyPT5uA-eoA" name="getUrlData" method="_LnaUkqbJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_Lm4wI6bJEeeyyPT5uA-eoA" name="Url" type="_Ll-xMKbJEeeyyPT5uA-eoA"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_Lm5XMKbJEeeyyPT5uA-eoA" name="print" visibility="private" method="_LnaUlKbJEeeyyPT5uA-eoA" raisedException="_Ll7t4abJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_Lm5XMabJEeeyyPT5uA-eoA" name="br" type="_Ll7G0abJEeeyyPT5uA-eoA"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_LkMogKbJEeeyyPT5uA-eoA" name="Util">
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Lna7oKbJEeeyyPT5uA-eoA" name="initializeContext" specification="_LkNPkKbJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_Lna7oabJEeeyyPT5uA-eoA" name="beanName">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_Lna7oqbJEeeyyPT5uA-eoA" type="_Lm6lUabJEeeyyPT5uA-eoA" direction="return"/>
+                  <language>java</language>
+                  <body>Object bean = null;&#xD;
+		try {&#xD;
+			synchronized (Util.class) {&#xD;
+				if (ApplicationContextUtil.getAppContext() == null) {&#xD;
+					ApplicationContext appContext = new ClassPathXmlApplicationContext(&quot;SpringBeans.xml&quot;);&#xD;
+					// bean = ApplicationContextUtil.getAppContext().getBean(beanName);&#xD;
+					bean = appContext.getBean(beanName);&#xD;
+				} else {&#xD;
+					bean = ApplicationContextUtil.getAppContext().getBean(beanName);&#xD;
+				}&#xD;
+			}&#xD;
+		} catch (Exception e) {&#xD;
+			e.printStackTrace();&#xD;
+		}&#xD;
+&#xD;
+		return bean;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Lna7o6bJEeeyyPT5uA-eoA" name="intializeBean" specification="_LkN2oKbJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_Lna7pKbJEeeyyPT5uA-eoA" name="stringValues">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_Lna7pabJEeeyyPT5uA-eoA" type="_Lm6lUabJEeeyyPT5uA-eoA" direction="return"/>
+                  <language>java</language>
+                  <body>Object bean = new Values(new String(stringValues));&#xD;
+		return bean;&#xD;
+&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Lna7pqbJEeeyyPT5uA-eoA" name="intializeSpringUrlSpoutBean" specification="_LkOdsKbJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_Lna7p6bJEeeyyPT5uA-eoA" name="stringValues">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_Lna7qKbJEeeyyPT5uA-eoA" type="_Lkh_sKbJEeeyyPT5uA-eoA" direction="return"/>
+                  <language>java</language>
+                  <body>SpringUrlSpout bean = new SpringUrlSpout();&#xD;
+		return bean;&#xD;
+&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Lna7qabJEeeyyPT5uA-eoA" name="intializeSpringUrlBoltBean" specification="_LkPEwKbJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_Lna7qqbJEeeyyPT5uA-eoA" name="stringValues">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_Lna7q6bJEeeyyPT5uA-eoA" type="_LkBpYKbJEeeyyPT5uA-eoA" direction="return"/>
+                  <language>java</language>
+                  <body>SpringUrlBolt bean = new SpringUrlBolt();&#xD;
+		return bean;&#xD;
+&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_LnbisKbJEeeyyPT5uA-eoA" name="spoutUrlMap" specification="_LkPr0KbJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_LnbisabJEeeyyPT5uA-eoA" name="spoutName">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_LnbisqbJEeeyyPT5uA-eoA" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>return spoutName;&#xD;
+		&#xD;
+		&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_LkNPkKbJEeeyyPT5uA-eoA" name="initializeContext" isStatic="true" method="_Lna7oKbJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_LkNPkabJEeeyyPT5uA-eoA" name="beanName">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_Lm7MYabJEeeyyPT5uA-eoA" type="_Lm6lUabJEeeyyPT5uA-eoA" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_LkN2oKbJEeeyyPT5uA-eoA" name="intializeBean" isStatic="true" method="_Lna7o6bJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_LkN2oabJEeeyyPT5uA-eoA" name="stringValues">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_Lm7MYqbJEeeyyPT5uA-eoA" type="_Lm6lUabJEeeyyPT5uA-eoA" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_LkOdsKbJEeeyyPT5uA-eoA" name="intializeSpringUrlSpoutBean" isStatic="true" method="_Lna7pqbJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_LkOdsabJEeeyyPT5uA-eoA" name="stringValues">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_LmS6QKbJEeeyyPT5uA-eoA" type="_Lkh_sKbJEeeyyPT5uA-eoA" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_LkPEwKbJEeeyyPT5uA-eoA" name="intializeSpringUrlBoltBean" isStatic="true" method="_Lna7qabJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_LkPEwabJEeeyyPT5uA-eoA" name="stringValues">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_LmS6QabJEeeyyPT5uA-eoA" type="_LkBpYKbJEeeyyPT5uA-eoA" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_LkPr0KbJEeeyyPT5uA-eoA" name="spoutUrlMap" isStatic="true" method="_LnbisKbJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_LkPr0abJEeeyyPT5uA-eoA" name="spoutName">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_LkPr0qbJEeeyyPT5uA-eoA" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_LkQS4KbJEeeyyPT5uA-eoA" name="URLBoltBuilder">
+                <ownedComment xmi:id="_LnhCQabJEeeyyPT5uA-eoA">
+                  <body>@author BharathiKumar_S&#xD;
+ *</body>
+                </ownedComment>
+                <interfaceRealization xmi:id="_LmThUKbJEeeyyPT5uA-eoA" client="_LkQS4KbJEeeyyPT5uA-eoA" supplier="_Lj-mEKbJEeeyyPT5uA-eoA" contract="_Lj-mEKbJEeeyyPT5uA-eoA"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Lnbis6bJEeeyyPT5uA-eoA" name="createBoltInstance" specification="_LkSIEKbJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_LnbitKbJEeeyyPT5uA-eoA" name="boltType">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_LnbitabJEeeyyPT5uA-eoA" type="_LkBpYKbJEeeyyPT5uA-eoA" direction="return"/>
+                  <language>java</language>
+                  <body>return Util.intializeSpringUrlBoltBean(boltType);&#xD;
+		&#xD;
+		&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_LkSIEKbJEeeyyPT5uA-eoA" name="createBoltInstance" method="_Lnbis6bJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_LkSIEabJEeeyyPT5uA-eoA" name="boltType">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_LmThUabJEeeyyPT5uA-eoA" type="_LkBpYKbJEeeyyPT5uA-eoA" direction="return"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_LkTWMKbJEeeyyPT5uA-eoA" name="URLSpoutBuilder">
+                <ownedComment xmi:id="_LnhCQqbJEeeyyPT5uA-eoA">
+                  <body>@author BharathiKumar_S&#xD;
+ *</body>
+                </ownedComment>
+                <interfaceRealization xmi:id="_LmUIYKbJEeeyyPT5uA-eoA" client="_LkTWMKbJEeeyyPT5uA-eoA" supplier="_LkAbQKbJEeeyyPT5uA-eoA" contract="_LkAbQKbJEeeyyPT5uA-eoA"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_LnbitqbJEeeyyPT5uA-eoA" name="createSpoutInstance" specification="_LkTWMabJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_Lnbit6bJEeeyyPT5uA-eoA" name="spoutType">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_LnbiuKbJEeeyyPT5uA-eoA" type="_Lkh_sKbJEeeyyPT5uA-eoA" direction="return"/>
+                  <language>java</language>
+                  <body>return Util.intializeSpringUrlSpoutBean(spoutType);&#xD;
+		&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_LkTWMabJEeeyyPT5uA-eoA" name="createSpoutInstance" method="_LnbitqbJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_LkT9QKbJEeeyyPT5uA-eoA" name="spoutType">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_LmUIYabJEeeyyPT5uA-eoA" type="_Lkh_sKbJEeeyyPT5uA-eoA" direction="return"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_LkUkUabJEeeyyPT5uA-eoA" name="UrlTopologyRun">
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_LncJwKbJEeeyyPT5uA-eoA" name="main" specification="_LkVLYKbJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_LncJwabJEeeyyPT5uA-eoA" name="args">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LncJwqbJEeeyyPT5uA-eoA" value="*"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>ApplicationContext context = new ClassPathXmlApplicationContext(&quot;SpringBeans.xml&quot;);&#xD;
+//		LoadTableDetails lts = (LoadTableDetails) context.getBean(&quot;loadtable&quot;);&#xD;
+		StaticLoadTableDetails lts = (StaticLoadTableDetails) context.getBean(&quot;loadtable&quot;);&#xD;
+		lts.readfiles();&#xD;
+		lts.populateTable();&#xD;
+	&#xD;
+		UrlTopologyspring uts = (UrlTopologyspring) context.getBean(&quot;UrlTopologyspring&quot;);&#xD;
+		/* url list file and build topology &#xD;
+		 * cluster.submit is required for each spout or bolt&#xD;
+		 *  topology1 --> spout 1..n --> bol1 1..n&#xD;
+		 *  topology2 --> spout 1..n --> bolt 1..n&#xD;
+		 * &#xD;
+		 * Spout/ bolt naming conventions&#xD;
+		 * ---------------------------------&#xD;
+		 * Spout = stockname_sourcesitename_spout&#xD;
+		 * bolt  = stockname_sourcesitename_spout&#xD;
+		 * */&#xD;
+		&#xD;
+		uts.buildTopology(&quot;up_Google_spout&quot;,&quot;up_Google_Bolt&quot;);&#xD;
+		uts.buildTopology(&quot;tn_NSE_spout&quot;,&quot;tn_NSE_Bolt&quot;); &#xD;
+		uts.buildTopology(&quot;ap_NSE_spout&quot;,&quot;ap_NSE_Bolt&quot;); &#xD;
+		uts.buildTopology(&quot;br_NSE_spout&quot;,&quot;br_NSE_Bolt&quot;); &#xD;
+		uts.buildTopology(&quot;ar_NSE_spout&quot;,&quot;ar_NSE_Bolt&quot;); &#xD;
+		uts.submit_topology(&quot;SpringTopology&quot;);&#xD;
+&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_LkVLYKbJEeeyyPT5uA-eoA" name="main" isStatic="true" method="_LncJwKbJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_LkVLYabJEeeyyPT5uA-eoA" name="args">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LkVycKbJEeeyyPT5uA-eoA" value="*"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_LkVycabJEeeyyPT5uA-eoA" name="UrlTopologyspring">
+                <ownedAttribute xmi:id="_LnOuYKbJEeeyyPT5uA-eoA" name="builder" type="_LmWkoabJEeeyyPT5uA-eoA" association="_LnhpUKbJEeeyyPT5uA-eoA"/>
+                <ownedAttribute xmi:id="_LnOuYabJEeeyyPT5uA-eoA" name="urlspout" type="_Lkh_sKbJEeeyyPT5uA-eoA" association="_LnhpUqbJEeeyyPT5uA-eoA"/>
+                <ownedAttribute xmi:id="_LnOuYqbJEeeyyPT5uA-eoA" name="urlbolt" type="_LkBpYKbJEeeyyPT5uA-eoA" association="_LniQYKbJEeeyyPT5uA-eoA"/>
+                <ownedAttribute xmi:id="_LnPVcKbJEeeyyPT5uA-eoA" name="config" type="_LmUIYqbJEeeyyPT5uA-eoA" association="_LniQYqbJEeeyyPT5uA-eoA"/>
+                <ownedAttribute xmi:id="_LnPVcabJEeeyyPT5uA-eoA" name="cluster" type="_LmVWgabJEeeyyPT5uA-eoA" association="_Lni3cKbJEeeyyPT5uA-eoA"/>
+                <ownedAttribute xmi:id="_LnP8gKbJEeeyyPT5uA-eoA" name="spoutName">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_LnP8gabJEeeyyPT5uA-eoA" name="boltName">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_LnP8gqbJEeeyyPT5uA-eoA" name="topologyName">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_LnQjkKbJEeeyyPT5uA-eoA" name="spouttype" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_LnQjkabJEeeyyPT5uA-eoA" value="&quot;UrlSpout&quot;"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_LnQjkqbJEeeyyPT5uA-eoA" name="bolttype" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_LnQjk6bJEeeyyPT5uA-eoA" value="&quot;UrlBolt&quot;"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_LnRKoKbJEeeyyPT5uA-eoA" name="spoutbuilder" type="_LkAbQKbJEeeyyPT5uA-eoA" isReadOnly="true" association="_LnvEsabJEeeyyPT5uA-eoA"/>
+                <ownedAttribute xmi:id="_LnRKoabJEeeyyPT5uA-eoA" name="boltbuilder" type="_Lj-mEKbJEeeyyPT5uA-eoA" isReadOnly="true" association="_LnvrwabJEeeyyPT5uA-eoA"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_LncJw6bJEeeyyPT5uA-eoA" name="buildTopology" specification="_LkXnoKbJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_LncJxKbJEeeyyPT5uA-eoA" name="spoutName">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_LncJxabJEeeyyPT5uA-eoA" name="boltName">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>System.out.println(&quot;Spoutname passed :&quot;+spoutName);&#xD;
+		this.spoutName = spoutName;&#xD;
+		this.boltName = boltName;&#xD;
+		&#xD;
+		urlspout = spoutbuilder.createSpoutInstance(spouttype);&#xD;
+		urlspout.setSpoutName(spoutName);&#xD;
+		builder.setSpout(spoutName, urlspout,1);&#xD;
+		builder.setBolt(boltName, boltbuilder.createBoltInstance(bolttype),1).shuffleGrouping(spoutName);&#xD;
+		&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Lncw0KbJEeeyyPT5uA-eoA" name="setBoltbuilder" specification="_LmZn8KbJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_Lncw0abJEeeyyPT5uA-eoA" name="boltbuilder" type="_LkQS4KbJEeeyyPT5uA-eoA"/>
+                  <language>java</language>
+                  <body>this.boltbuilder = boltbuilder;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Lncw0qbJEeeyyPT5uA-eoA" name="submit_topology" specification="_LkXno6bJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_Lncw06bJEeeyyPT5uA-eoA" name="topologyName">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>//Config conf = new Config();&#xD;
+	&#xD;
+		&#xD;
+		cluster.submitTopology(topologyName, config, builder.createTopology());&#xD;
+		/*&#xD;
+		 * THE BELOW SLEEP AND CLUSTER KILL /SHUTDOWN IS NOT REQUIRED IF CLUSTER&#xD;
+		 * SHUTDOWN IS REQUESTED THEN SLEEP IS REQUIRED ELSE THE TOPOLOGY IS&#xD;
+		 * KILLED STRAIGHT AWAY&#xD;
+		 */&#xD;
+		// Utils.sleep(50000);&#xD;
+		// conf.setDebug(true);&#xD;
+		// conf.setNumWorkers(2);&#xD;
+&#xD;
+		/*&#xD;
+		 * try { Thread.sleep(5000); } catch (InterruptedException e) {&#xD;
+		 * e.printStackTrace(); }&#xD;
+		 */&#xD;
+&#xD;
+		/*&#xD;
+		 * cluster.killTopology(topologyName); cluster.shutdown();&#xD;
+		 */&#xD;
+&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Lncw1KbJEeeyyPT5uA-eoA" name="buildCluster" specification="_Lm8agKbJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_Lncw1abJEeeyyPT5uA-eoA" name="topologyName">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_Lncw1qbJEeeyyPT5uA-eoA" name="config" type="_LmUIYqbJEeeyyPT5uA-eoA"/>
+                  <language>java</language>
+                  <body>cluster.submitTopology(topologyName, config, getBuilder().createTopology());&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Lncw16bJEeeyyPT5uA-eoA" name="setSpoutbuilder" specification="_Lma2EabJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_Lncw2KbJEeeyyPT5uA-eoA" name="spoutbuilder" type="_LkTWMKbJEeeyyPT5uA-eoA"/>
+                  <language>java</language>
+                  <body>this.spoutbuilder = spoutbuilder;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_LkXnoKbJEeeyyPT5uA-eoA" name="buildTopology" method="_LncJw6bJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_LkXnoabJEeeyyPT5uA-eoA" name="spoutName">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_LkXnoqbJEeeyyPT5uA-eoA" name="boltName">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_LkXno6bJEeeyyPT5uA-eoA" name="submit_topology" method="_Lncw0qbJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_LkXnpKbJEeeyyPT5uA-eoA" name="topologyName">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_LmZn8KbJEeeyyPT5uA-eoA" name="setBoltbuilder" method="_Lncw0KbJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_LmZn8abJEeeyyPT5uA-eoA" name="boltbuilder" type="_LkQS4KbJEeeyyPT5uA-eoA"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_Lma2EabJEeeyyPT5uA-eoA" name="setSpoutbuilder" method="_Lncw16bJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_Lma2EqbJEeeyyPT5uA-eoA" name="spoutbuilder" type="_LkTWMKbJEeeyyPT5uA-eoA"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_Lm8agKbJEeeyyPT5uA-eoA" name="buildCluster" method="_Lncw1KbJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_Lm9BkKbJEeeyyPT5uA-eoA" name="topologyName">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_Lm9BkabJEeeyyPT5uA-eoA" name="config" type="_LmUIYqbJEeeyyPT5uA-eoA"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_Lkb5EKbJEeeyyPT5uA-eoA" name="UrlTopologyspring2">
+                <ownedAttribute xmi:id="_LnRxsKbJEeeyyPT5uA-eoA" name="builder" type="_LmWkoabJEeeyyPT5uA-eoA" association="_Lni3cqbJEeeyyPT5uA-eoA"/>
+                <ownedAttribute xmi:id="_LnRxsabJEeeyyPT5uA-eoA" name="urlspout" type="_Lkh_sKbJEeeyyPT5uA-eoA" association="_LnjegabJEeeyyPT5uA-eoA"/>
+                <ownedAttribute xmi:id="_LnSYwKbJEeeyyPT5uA-eoA" name="urlbolt" type="_LkBpYKbJEeeyyPT5uA-eoA" association="_Lnjeg6bJEeeyyPT5uA-eoA"/>
+                <ownedAttribute xmi:id="_LnSYwabJEeeyyPT5uA-eoA" name="config" type="_LmUIYqbJEeeyyPT5uA-eoA" association="_LnkFkabJEeeyyPT5uA-eoA"/>
+                <ownedAttribute xmi:id="_LnS_0KbJEeeyyPT5uA-eoA" name="cluster" type="_LmVWgabJEeeyyPT5uA-eoA" association="_LnkFk6bJEeeyyPT5uA-eoA"/>
+                <ownedAttribute xmi:id="_LnS_0abJEeeyyPT5uA-eoA" name="spoutName">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_LnS_0qbJEeeyyPT5uA-eoA" name="boltName">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_LnTm4KbJEeeyyPT5uA-eoA" name="topologyName">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_LnTm4abJEeeyyPT5uA-eoA" name="spout_type" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_LnTm4qbJEeeyyPT5uA-eoA" value="&quot;UrlSpout&quot;"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_LnUN8KbJEeeyyPT5uA-eoA" name="bolt_type" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_LnUN8abJEeeyyPT5uA-eoA" value="&quot;UrlBolt&quot;"/>
+                </ownedAttribute>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_LndX4KbJEeeyyPT5uA-eoA" name="buildTopology" specification="_LkdHMKbJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_LndX4abJEeeyyPT5uA-eoA" name="spoutName">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_LndX4qbJEeeyyPT5uA-eoA" name="boltName">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>System.out.println(&quot;Spoutname passed :&quot;+spoutName);&#xD;
+		this.spoutName = spoutName;&#xD;
+		this.boltName = boltName;&#xD;
+		&#xD;
+		create_Spout_Instance();&#xD;
+		create_Bolt_Instance();&#xD;
+		urlspout= (SpringUrlSpout) Util.intializeSpringUrlSpoutBean(spout_type);&#xD;
+		urlbolt = (SpringUrlBolt) Util.intializeSpringUrlBoltBean(bolt_type);&#xD;
+		&#xD;
+		urlspout.setSpoutName(spoutName);&#xD;
+		&#xD;
+		builder.setSpout(spoutName, urlspout,1);&#xD;
+		builder.setBolt(boltName, urlbolt,1).shuffleGrouping(spoutName);&#xD;
+		&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_LndX46bJEeeyyPT5uA-eoA" name="create_Bolt_Instance" specification="_LkduQKbJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_LndX5KbJEeeyyPT5uA-eoA" type="_LkBpYKbJEeeyyPT5uA-eoA" direction="return"/>
+                  <language>java</language>
+                  <body>return urlbolt;&#xD;
+	&#xD;
+		&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Lnd-8KbJEeeyyPT5uA-eoA" name="create_Spout_Instance" specification="_LkduQabJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_Lnd-8abJEeeyyPT5uA-eoA" type="_Lkh_sKbJEeeyyPT5uA-eoA" direction="return"/>
+                  <language>java</language>
+                  <body>return urlspout;&#xD;
+		&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Lnd-8qbJEeeyyPT5uA-eoA" name="submit_topology" specification="_LkeVUKbJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_Lnd-86bJEeeyyPT5uA-eoA" name="topologyName">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>//Config conf = new Config();&#xD;
+	&#xD;
+		&#xD;
+		cluster.submitTopology(topologyName, config, builder.createTopology());&#xD;
+		/*&#xD;
+		 * THE BELOW SLEEP AND CLUSTER KILL /SHUTDOWN IS NOT REQUIRED IF CLUSTER&#xD;
+		 * SHUTDOWN IS REQUESTED THEN SLEEP IS REQUIRED ELSE THE TOPOLOGY IS&#xD;
+		 * KILLED STRAIGHT AWAY&#xD;
+		 */&#xD;
+		// Utils.sleep(50000);&#xD;
+		// conf.setDebug(true);&#xD;
+		// conf.setNumWorkers(2);&#xD;
+&#xD;
+		/*&#xD;
+		 * try { Thread.sleep(5000); } catch (InterruptedException e) {&#xD;
+		 * e.printStackTrace(); }&#xD;
+		 */&#xD;
+&#xD;
+		/*&#xD;
+		 * cluster.killTopology(topologyName); cluster.shutdown();&#xD;
+		 */&#xD;
+&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Lnd-9KbJEeeyyPT5uA-eoA" name="buildSpout" specification="_LmegcqbJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_Lnd-9abJEeeyyPT5uA-eoA" name="SpoutName">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_Lnd-9qbJEeeyyPT5uA-eoA" name="urlspout" type="_Lkh_sKbJEeeyyPT5uA-eoA"/>
+                  <language>java</language>
+                  <body>builder.setSpout(SpoutName, urlspout);&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Lnd-96bJEeeyyPT5uA-eoA" name="buildBolt" specification="_LmfHgabJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_Lnd--KbJEeeyyPT5uA-eoA" name="boltName">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_Lnd--abJEeeyyPT5uA-eoA" name="urlbolt" type="_LkBpYKbJEeeyyPT5uA-eoA"/>
+                  <ownedParameter xmi:id="_Lnd--qbJEeeyyPT5uA-eoA" name="SpoutName">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>builder.setBolt(boltName, urlbolt).shuffleGrouping(SpoutName);&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_LnemAKbJEeeyyPT5uA-eoA" name="buildCluster" specification="_Lm-2wKbJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_LnemAabJEeeyyPT5uA-eoA" name="topologyName">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_LnemAqbJEeeyyPT5uA-eoA" name="config" type="_LmUIYqbJEeeyyPT5uA-eoA"/>
+                  <language>java</language>
+                  <body>cluster.submitTopology(topologyName, config, getBuilder().createTopology());&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_LkdHMKbJEeeyyPT5uA-eoA" name="buildTopology" method="_LndX4KbJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_LkdHMabJEeeyyPT5uA-eoA" name="spoutName">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_LkdHMqbJEeeyyPT5uA-eoA" name="boltName">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_LkduQKbJEeeyyPT5uA-eoA" name="create_Bolt_Instance" visibility="private" method="_LndX46bJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_LmegcKbJEeeyyPT5uA-eoA" type="_LkBpYKbJEeeyyPT5uA-eoA" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_LkduQabJEeeyyPT5uA-eoA" name="create_Spout_Instance" visibility="private" method="_Lnd-8KbJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_LmegcabJEeeyyPT5uA-eoA" type="_Lkh_sKbJEeeyyPT5uA-eoA" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_LkeVUKbJEeeyyPT5uA-eoA" name="submit_topology" method="_Lnd-8qbJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_LkeVUabJEeeyyPT5uA-eoA" name="topologyName">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_LmegcqbJEeeyyPT5uA-eoA" name="buildSpout" method="_Lnd-9KbJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_Lmegc6bJEeeyyPT5uA-eoA" name="SpoutName">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_LmfHgKbJEeeyyPT5uA-eoA" name="urlspout" type="_Lkh_sKbJEeeyyPT5uA-eoA"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_LmfHgabJEeeyyPT5uA-eoA" name="buildBolt" method="_Lnd-96bJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_LmfHgqbJEeeyyPT5uA-eoA" name="boltName">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_LmfHg6bJEeeyyPT5uA-eoA" name="urlbolt" type="_LkBpYKbJEeeyyPT5uA-eoA"/>
+                  <ownedParameter xmi:id="_LmfHhKbJEeeyyPT5uA-eoA" name="SpoutName">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_Lm-2wKbJEeeyyPT5uA-eoA" name="buildCluster" method="_LnemAKbJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_Lm-2wabJEeeyyPT5uA-eoA" name="topologyName">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_Lm-2wqbJEeeyyPT5uA-eoA" name="config" type="_LmUIYqbJEeeyyPT5uA-eoA"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_Lkh_sKbJEeeyyPT5uA-eoA" name="SpringUrlSpout">
+                <generalization xmi:id="_LnEWU6bJEeeyyPT5uA-eoA" general="_LmjY8abJEeeyyPT5uA-eoA"/>
+                <ownedAttribute xmi:id="_LnU1AKbJEeeyyPT5uA-eoA" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_LnU1AabJEeeyyPT5uA-eoA" value="1L"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_LnVcEKbJEeeyyPT5uA-eoA" name="collector" type="_Lmix4abJEeeyyPT5uA-eoA" association="_LnksoKbJEeeyyPT5uA-eoA"/>
+                <ownedAttribute xmi:id="_LnVcEabJEeeyyPT5uA-eoA" name="spoutBuilder" visibility="private" type="_LnAr8KbJEeeyyPT5uA-eoA" association="_LnwS0abJEeeyyPT5uA-eoA"/>
+                <ownedAttribute xmi:id="_LnWDIKbJEeeyyPT5uA-eoA" name="url">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_LnWDIabJEeeyyPT5uA-eoA" name="values" type="_LmRFEKbJEeeyyPT5uA-eoA" association="_LnlTsKbJEeeyyPT5uA-eoA"/>
+                <ownedAttribute xmi:id="_LnWqMKbJEeeyyPT5uA-eoA" name="spoutName">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_LnWqMabJEeeyyPT5uA-eoA" name="lt" type="_LmXywabJEeeyyPT5uA-eoA" association="_LnlTsqbJEeeyyPT5uA-eoA"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_LnemA6bJEeeyyPT5uA-eoA" name="nextTuple" specification="_LkjN0KbJEeeyyPT5uA-eoA">
+                  <language>java</language>
+                  <body>url = StaticLoadTableDetails.getMapping(spoutName);&#xD;
+		values = (Values) Util.intializeBean(url);&#xD;
+		collector.emit(values);&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_LnemBKbJEeeyyPT5uA-eoA" name="open" specification="_LnChIKbJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_LnemBabJEeeyyPT5uA-eoA" name="conf" type="_Ll__UabJEeeyyPT5uA-eoA"/>
+                  <ownedParameter xmi:id="_LnemBqbJEeeyyPT5uA-eoA" name="context" type="_LmBNcabJEeeyyPT5uA-eoA"/>
+                  <ownedParameter xmi:id="_LnemB6bJEeeyyPT5uA-eoA" name="outputcollector" type="_Lmix4abJEeeyyPT5uA-eoA"/>
+                  <language>java</language>
+                  <body>Set&lt;String> ComponentIds = context.getComponentIds();&#xD;
+		System.out.println(&quot;Spout open ++++++++++++++++++++++++++++++++&quot; + ComponentIds.toString());&#xD;
+		System.out.println(context.getComponentId(context.getThisTaskId()));&#xD;
+		System.out.println(context.getThisTaskId());&#xD;
+&#xD;
+		this.collector = outputcollector;&#xD;
+&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_LnfNEKbJEeeyyPT5uA-eoA" name="declareOutputFields" specification="_LnDvQKbJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_LnfNEabJEeeyyPT5uA-eoA" name="declarer" type="_LmB0gabJEeeyyPT5uA-eoA"/>
+                  <language>java</language>
+                  <body>declarer.declare(new Fields(&quot;url&quot;));&#xD;
+&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_LkjN0KbJEeeyyPT5uA-eoA" name="nextTuple" method="_LnemA6bJEeeyyPT5uA-eoA"/>
+                <ownedOperation xmi:id="_LnChIKbJEeeyyPT5uA-eoA" name="open" method="_LnemBKbJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_LnChIabJEeeyyPT5uA-eoA" name="conf" type="_Ll__UabJEeeyyPT5uA-eoA"/>
+                  <ownedParameter xmi:id="_LnChIqbJEeeyyPT5uA-eoA" name="context" type="_LmBNcabJEeeyyPT5uA-eoA"/>
+                  <ownedParameter xmi:id="_LnChI6bJEeeyyPT5uA-eoA" name="outputcollector" type="_Lmix4abJEeeyyPT5uA-eoA"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_LnDvQKbJEeeyyPT5uA-eoA" name="declareOutputFields" method="_LnfNEKbJEeeyyPT5uA-eoA">
+                  <ownedParameter xmi:id="_LnDvQabJEeeyyPT5uA-eoA" name="declarer" type="_LmB0gabJEeeyyPT5uA-eoA"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_LnAr8KbJEeeyyPT5uA-eoA" name="IspoutBuilder"/>
+              <packagedElement xmi:type="uml:Association" xmi:id="_LnhpUKbJEeeyyPT5uA-eoA" name="" memberEnd="_LnOuYKbJEeeyyPT5uA-eoA _LnhpUabJEeeyyPT5uA-eoA">
+                <ownedEnd xmi:id="_LnhpUabJEeeyyPT5uA-eoA" name="" type="_LkVycabJEeeyyPT5uA-eoA" association="_LnhpUKbJEeeyyPT5uA-eoA"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_LnhpUqbJEeeyyPT5uA-eoA" name="" memberEnd="_LnOuYabJEeeyyPT5uA-eoA _LnhpU6bJEeeyyPT5uA-eoA">
+                <ownedEnd xmi:id="_LnhpU6bJEeeyyPT5uA-eoA" name="" type="_LkVycabJEeeyyPT5uA-eoA" association="_LnhpUqbJEeeyyPT5uA-eoA"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_LniQYKbJEeeyyPT5uA-eoA" name="" memberEnd="_LnOuYqbJEeeyyPT5uA-eoA _LniQYabJEeeyyPT5uA-eoA">
+                <ownedEnd xmi:id="_LniQYabJEeeyyPT5uA-eoA" name="" type="_LkVycabJEeeyyPT5uA-eoA" association="_LniQYKbJEeeyyPT5uA-eoA"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_LniQYqbJEeeyyPT5uA-eoA" name="" memberEnd="_LnPVcKbJEeeyyPT5uA-eoA _LniQY6bJEeeyyPT5uA-eoA">
+                <ownedEnd xmi:id="_LniQY6bJEeeyyPT5uA-eoA" name="" type="_LkVycabJEeeyyPT5uA-eoA" association="_LniQYqbJEeeyyPT5uA-eoA"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_Lni3cKbJEeeyyPT5uA-eoA" name="" memberEnd="_LnPVcabJEeeyyPT5uA-eoA _Lni3cabJEeeyyPT5uA-eoA">
+                <ownedEnd xmi:id="_Lni3cabJEeeyyPT5uA-eoA" name="" type="_LkVycabJEeeyyPT5uA-eoA" association="_Lni3cKbJEeeyyPT5uA-eoA"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_Lni3cqbJEeeyyPT5uA-eoA" name="" memberEnd="_LnRxsKbJEeeyyPT5uA-eoA _LnjegKbJEeeyyPT5uA-eoA">
+                <ownedEnd xmi:id="_LnjegKbJEeeyyPT5uA-eoA" name="" type="_Lkb5EKbJEeeyyPT5uA-eoA" association="_Lni3cqbJEeeyyPT5uA-eoA"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_LnjegabJEeeyyPT5uA-eoA" name="" memberEnd="_LnRxsabJEeeyyPT5uA-eoA _LnjegqbJEeeyyPT5uA-eoA">
+                <ownedEnd xmi:id="_LnjegqbJEeeyyPT5uA-eoA" name="" type="_Lkb5EKbJEeeyyPT5uA-eoA" association="_LnjegabJEeeyyPT5uA-eoA"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_Lnjeg6bJEeeyyPT5uA-eoA" name="" memberEnd="_LnSYwKbJEeeyyPT5uA-eoA _LnkFkKbJEeeyyPT5uA-eoA">
+                <ownedEnd xmi:id="_LnkFkKbJEeeyyPT5uA-eoA" name="" type="_Lkb5EKbJEeeyyPT5uA-eoA" association="_Lnjeg6bJEeeyyPT5uA-eoA"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_LnkFkabJEeeyyPT5uA-eoA" name="" memberEnd="_LnSYwabJEeeyyPT5uA-eoA _LnkFkqbJEeeyyPT5uA-eoA">
+                <ownedEnd xmi:id="_LnkFkqbJEeeyyPT5uA-eoA" name="" type="_Lkb5EKbJEeeyyPT5uA-eoA" association="_LnkFkabJEeeyyPT5uA-eoA"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_LnkFk6bJEeeyyPT5uA-eoA" name="" memberEnd="_LnS_0KbJEeeyyPT5uA-eoA _LnkFlKbJEeeyyPT5uA-eoA">
+                <ownedEnd xmi:id="_LnkFlKbJEeeyyPT5uA-eoA" name="" type="_Lkb5EKbJEeeyyPT5uA-eoA" association="_LnkFk6bJEeeyyPT5uA-eoA"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_LnksoKbJEeeyyPT5uA-eoA" name="" memberEnd="_LnVcEKbJEeeyyPT5uA-eoA _LnksoabJEeeyyPT5uA-eoA">
+                <ownedEnd xmi:id="_LnksoabJEeeyyPT5uA-eoA" name="" type="_Lkh_sKbJEeeyyPT5uA-eoA" association="_LnksoKbJEeeyyPT5uA-eoA"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_LnlTsKbJEeeyyPT5uA-eoA" name="" memberEnd="_LnWDIabJEeeyyPT5uA-eoA _LnlTsabJEeeyyPT5uA-eoA">
+                <ownedEnd xmi:id="_LnlTsabJEeeyyPT5uA-eoA" name="" type="_Lkh_sKbJEeeyyPT5uA-eoA" association="_LnlTsKbJEeeyyPT5uA-eoA"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_LnlTsqbJEeeyyPT5uA-eoA" name="" memberEnd="_LnWqMabJEeeyyPT5uA-eoA _LnlTs6bJEeeyyPT5uA-eoA">
+                <ownedEnd xmi:id="_LnlTs6bJEeeyyPT5uA-eoA" name="" type="_Lkh_sKbJEeeyyPT5uA-eoA" association="_LnlTsqbJEeeyyPT5uA-eoA"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_LnplIKbJEeeyyPT5uA-eoA" name="" memberEnd="_LnplIabJEeeyyPT5uA-eoA _LnHZoKbJEeeyyPT5uA-eoA">
+                <ownedEnd xmi:id="_LnplIabJEeeyyPT5uA-eoA" name="" type="_Lj5tkKbJEeeyyPT5uA-eoA" association="_LnplIKbJEeeyyPT5uA-eoA"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_LnqzQKbJEeeyyPT5uA-eoA" name="" memberEnd="_LnqzQabJEeeyyPT5uA-eoA _LnJO0qbJEeeyyPT5uA-eoA">
+                <ownedEnd xmi:id="_LnqzQabJEeeyyPT5uA-eoA" name="" type="_LkBpYKbJEeeyyPT5uA-eoA" association="_LnqzQKbJEeeyyPT5uA-eoA"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_LnraUabJEeeyyPT5uA-eoA" name="" memberEnd="_LnraUqbJEeeyyPT5uA-eoA _LnKc8abJEeeyyPT5uA-eoA">
+                <ownedEnd xmi:id="_LnraUqbJEeeyyPT5uA-eoA" name="" type="_LkBpYKbJEeeyyPT5uA-eoA" association="_LnraUabJEeeyyPT5uA-eoA"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_LnsBYabJEeeyyPT5uA-eoA" name="" memberEnd="_LnsBYqbJEeeyyPT5uA-eoA _LnLEBKbJEeeyyPT5uA-eoA">
+                <ownedEnd xmi:id="_LnsBYqbJEeeyyPT5uA-eoA" name="" type="_LkBpYKbJEeeyyPT5uA-eoA" association="_LnsBYabJEeeyyPT5uA-eoA"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_LnsocabJEeeyyPT5uA-eoA" name="" memberEnd="_LnsocqbJEeeyyPT5uA-eoA _LnMSIKbJEeeyyPT5uA-eoA">
+                <ownedEnd xmi:id="_LnsocqbJEeeyyPT5uA-eoA" name="" type="_LkHwAKbJEeeyyPT5uA-eoA" association="_LnsocabJEeeyyPT5uA-eoA"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_Lnt2kKbJEeeyyPT5uA-eoA" name="" memberEnd="_Lnt2kabJEeeyyPT5uA-eoA _LnM5MabJEeeyyPT5uA-eoA">
+                <ownedEnd xmi:id="_Lnt2kabJEeeyyPT5uA-eoA" name="" type="_LkHwAKbJEeeyyPT5uA-eoA" association="_Lnt2kKbJEeeyyPT5uA-eoA"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_LnudoabJEeeyyPT5uA-eoA" name="" memberEnd="_LnudoqbJEeeyyPT5uA-eoA _LnNgQabJEeeyyPT5uA-eoA">
+                <ownedEnd xmi:id="_LnudoqbJEeeyyPT5uA-eoA" name="" type="_LkHwAKbJEeeyyPT5uA-eoA" association="_LnudoabJEeeyyPT5uA-eoA"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_LnvEsabJEeeyyPT5uA-eoA" name="" memberEnd="_LnvEsqbJEeeyyPT5uA-eoA _LnRKoKbJEeeyyPT5uA-eoA">
+                <ownedEnd xmi:id="_LnvEsqbJEeeyyPT5uA-eoA" name="" type="_LkVycabJEeeyyPT5uA-eoA" association="_LnvEsabJEeeyyPT5uA-eoA"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_LnvrwabJEeeyyPT5uA-eoA" name="" memberEnd="_LnvrwqbJEeeyyPT5uA-eoA _LnRKoabJEeeyyPT5uA-eoA">
+                <ownedEnd xmi:id="_LnvrwqbJEeeyyPT5uA-eoA" name="" type="_LkVycabJEeeyyPT5uA-eoA" association="_LnvrwabJEeeyyPT5uA-eoA"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_LnwS0abJEeeyyPT5uA-eoA" name="" memberEnd="_LnwS0qbJEeeyyPT5uA-eoA _LnVcEabJEeeyyPT5uA-eoA">
+                <ownedEnd xmi:id="_LnwS0qbJEeeyyPT5uA-eoA" name="" type="_Lkh_sKbJEeeyyPT5uA-eoA" association="_LnwS0abJEeeyyPT5uA-eoA"/>
+              </packagedElement>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_LjEAEabJEeeyyPT5uA-eoA" name="json">
+          <packagedElement xmi:type="uml:Class" xmi:id="_LmMzoabJEeeyyPT5uA-eoA" name="GAPI_MAP"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_LjJfoabJEeeyyPT5uA-eoA" name="util">
+          <packagedElement xmi:type="uml:Class" xmi:id="_LmXLsabJEeeyyPT5uA-eoA" name="LoadTableDetails"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_LmXywabJEeeyyPT5uA-eoA" name="StaticLoadTableDetails"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_LjDZAabJEeeyyPT5uA-eoA" name="fasterxml">
+        <packagedElement xmi:type="uml:Package" xmi:id="_LjDZAqbJEeeyyPT5uA-eoA" name="jackson">
+          <packagedElement xmi:type="uml:Package" xmi:id="_LjDZA6bJEeeyyPT5uA-eoA" name="core">
+            <packagedElement xmi:type="uml:Class" xmi:id="_LmLlgabJEeeyyPT5uA-eoA" name="JsonParser"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_LjEAEKbJEeeyyPT5uA-eoA" name="databind">
+            <packagedElement xmi:type="uml:Class" xmi:id="_LmMMkabJEeeyyPT5uA-eoA" name="ObjectMapper"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Li7dMKbJEeeyyPT5uA-eoA" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="_Li7dMabJEeeyyPT5uA-eoA" name="springframework">
+        <packagedElement xmi:type="uml:Package" xmi:id="_Li7dMqbJEeeyyPT5uA-eoA" name="beans">
+          <packagedElement xmi:type="uml:Class" xmi:id="_Ll1nQKbJEeeyyPT5uA-eoA" name="BeansException"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_Li8EQKbJEeeyyPT5uA-eoA" name="context">
+          <packagedElement xmi:type="uml:Package" xmi:id="_LjGcUKbJEeeyyPT5uA-eoA" name="support">
+            <packagedElement xmi:type="uml:Class" xmi:id="_LmRsIabJEeeyyPT5uA-eoA" name="ClassPathXmlApplicationContext"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_Ll21YabJEeeyyPT5uA-eoA" name="ApplicationContext"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_Ll3ccabJEeeyyPT5uA-eoA" name="ApplicationContextAware"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_Li8EQabJEeeyyPT5uA-eoA" name="stereotype">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_Ll4qkKbJEeeyyPT5uA-eoA" name="Component"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_Li_HlKbJEeeyyPT5uA-eoA" name="apache">
+        <packagedElement xmi:type="uml:Package" xmi:id="_Li_HlabJEeeyyPT5uA-eoA" name="storm">
+          <packagedElement xmi:type="uml:Package" xmi:id="_Li_uoKbJEeeyyPT5uA-eoA" name="task">
+            <packagedElement xmi:type="uml:Class" xmi:id="_LmAmYabJEeeyyPT5uA-eoA" name="OutputCollector"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_LmBNcabJEeeyyPT5uA-eoA" name="TopologyContext"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_Li_uoabJEeeyyPT5uA-eoA" name="topology">
+            <packagedElement xmi:type="uml:Package" xmi:id="_Li_uoqbJEeeyyPT5uA-eoA" name="base">
+              <packagedElement xmi:type="uml:Class" xmi:id="_LmCbkabJEeeyyPT5uA-eoA" name="BaseRichBolt"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_LmjY8abJEeeyyPT5uA-eoA" name="BaseRichSpout"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Interface" xmi:id="_LmB0gabJEeeyyPT5uA-eoA" name="OutputFieldsDeclarer"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_LmWkoabJEeeyyPT5uA-eoA" name="TopologyBuilder"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_Li_uo6bJEeeyyPT5uA-eoA" name="tuple">
+            <packagedElement xmi:type="uml:Class" xmi:id="_LmDCoabJEeeyyPT5uA-eoA" name="Fields"/>
+            <packagedElement xmi:type="uml:Interface" xmi:id="_LmDpsabJEeeyyPT5uA-eoA" name="Tuple"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_LmRFEKbJEeeyyPT5uA-eoA" name="Values"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_LjJfoKbJEeeyyPT5uA-eoA" name="scheduler">
+            <packagedElement xmi:type="uml:Class" xmi:id="_LmV9kabJEeeyyPT5uA-eoA" name="Cluster"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_LjSpkKbJEeeyyPT5uA-eoA" name="spout">
+            <packagedElement xmi:type="uml:Class" xmi:id="_Lmix4abJEeeyyPT5uA-eoA" name="SpoutOutputCollector"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_LmUIYqbJEeeyyPT5uA-eoA" name="Config"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_LmVWgabJEeeyyPT5uA-eoA" name="LocalCluster"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_LjDZAKbJEeeyyPT5uA-eoA" name="json">
+        <packagedElement xmi:type="uml:Class" xmi:id="_LmK-cabJEeeyyPT5uA-eoA" name="JSONObject"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Li-ggKbJEeeyyPT5uA-eoA" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_Li_HkKbJEeeyyPT5uA-eoA" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_Ll7G0abJEeeyyPT5uA-eoA" name="BufferedReader"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Ll7t4abJEeeyyPT5uA-eoA" name="IOException"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Ll8U8abJEeeyyPT5uA-eoA" name="InputStreamReader"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Ll88AabJEeeyyPT5uA-eoA" name="ObjectOutputStream"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_LmIiMKbJEeeyyPT5uA-eoA" name="FileOutputStream"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_Li_HkabJEeeyyPT5uA-eoA" name="net">
+        <packagedElement xmi:type="uml:Class" xmi:id="_Ll9jEabJEeeyyPT5uA-eoA" name="HttpURLConnection"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Ll-xMKbJEeeyyPT5uA-eoA" name="URL"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_LmJwUKbJEeeyyPT5uA-eoA" name="MalformedURLException"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_LmKXYKbJEeeyyPT5uA-eoA" name="URLConnection"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_Li_HkqbJEeeyyPT5uA-eoA" name="sql">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_Ll_YQKbJEeeyyPT5uA-eoA" name="Timestamp"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_Li_Hk6bJEeeyyPT5uA-eoA" name="util">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_Ll__UabJEeeyyPT5uA-eoA" name="Map"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_LmiK0KbJEeeyyPT5uA-eoA" name="Set"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_Lm6lUKbJEeeyyPT5uA-eoA" name="lang">
+        <packagedElement xmi:type="uml:Class" xmi:id="_Lm6lUabJEeeyyPT5uA-eoA" name="Object"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_LSaU8qbJEeeyyPT5uA-eoA">
+      <eAnnotations xmi:id="_LSaU86bJEeeyyPT5uA-eoA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+    <profileApplication xmi:id="_Nj4oUKbJEeeyyPT5uA-eoA">
+      <eAnnotations xmi:id="_Nj5PYKbJEeeyyPT5uA-eoA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://ARCHITECTUREREVIEW_PROFILES/ArchitectureReview.profile.uml#_ypx9siN3EeK_4-5pMoCxQg"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://ARCHITECTUREREVIEW_PROFILES/ArchitectureReview.profile.uml#_qTOicCN3EeK_4-5pMoCxQg"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_LSa8AKbJEeeyyPT5uA-eoA" base_Package="_LR3iYKbJEeeyyPT5uA-eoA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Lj67sKbJEeeyyPT5uA-eoA" base_Element="_Lj5tkKbJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Annotations xmi:id="_Lj8w4KbJEeeyyPT5uA-eoA" base_Element="_Lj5tkKbJEeeyyPT5uA-eoA">
+    <annotations xmi:id="_Lj9X8KbJEeeyyPT5uA-eoA" name="Component"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_LkDekKbJEeeyyPT5uA-eoA" base_Element="_LkC3gKbJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Annotations xmi:id="_LkEFoKbJEeeyyPT5uA-eoA" base_Element="_LkC3gKbJEeeyyPT5uA-eoA">
+    <annotations xmi:id="_LkEFoabJEeeyyPT5uA-eoA" name="SuppressWarnings">
+      <annotationParameters xmi:id="_LkEFoqbJEeeyyPT5uA-eoA" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_LnhCQKbJEeeyyPT5uA-eoA" value="&quot;unused&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_LkRhAKbJEeeyyPT5uA-eoA" genericsValue="T" base_Element="_LkQS4KbJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_LkSIEqbJEeeyyPT5uA-eoA" base_Element="_LkSIEKbJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Annotations xmi:id="_LkSvIKbJEeeyyPT5uA-eoA" base_Element="_LkSIEKbJEeeyyPT5uA-eoA">
+    <annotations xmi:id="_LkSvIabJEeeyyPT5uA-eoA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_LkT9QabJEeeyyPT5uA-eoA" base_Element="_LkTWMabJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Annotations xmi:id="_LkT9QqbJEeeyyPT5uA-eoA" base_Element="_LkTWMabJEeeyyPT5uA-eoA">
+    <annotations xmi:id="_LkUkUKbJEeeyyPT5uA-eoA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_LkjN0abJEeeyyPT5uA-eoA" base_Element="_LkjN0KbJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Annotations xmi:id="_Lkj04KbJEeeyyPT5uA-eoA" base_Element="_LkjN0KbJEeeyyPT5uA-eoA">
+    <annotations xmi:id="_Lkj04abJEeeyyPT5uA-eoA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_Ll21YKbJEeeyyPT5uA-eoA" base_Element="_Ll1nQKbJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Reference xmi:id="_Ll3ccKbJEeeyyPT5uA-eoA" base_Element="_Ll21YabJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Reference xmi:id="_Ll4DgKbJEeeyyPT5uA-eoA" base_Element="_Ll3ccabJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Reference xmi:id="_Ll5RoKbJEeeyyPT5uA-eoA" base_Element="_Ll4qkKbJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Reference xmi:id="_Ll7t4KbJEeeyyPT5uA-eoA" base_Element="_Ll7G0abJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Reference xmi:id="_Ll8U8KbJEeeyyPT5uA-eoA" base_Element="_Ll7t4abJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Reference xmi:id="_Ll88AKbJEeeyyPT5uA-eoA" base_Element="_Ll8U8abJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Reference xmi:id="_Ll9jEKbJEeeyyPT5uA-eoA" base_Element="_Ll88AabJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Reference xmi:id="_Ll-KIKbJEeeyyPT5uA-eoA" base_Element="_Ll9jEabJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Reference xmi:id="_Ll-xMabJEeeyyPT5uA-eoA" base_Element="_Ll-xMKbJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Reference xmi:id="_Ll__UKbJEeeyyPT5uA-eoA" base_Element="_Ll_YQKbJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Reference xmi:id="_LmAmYKbJEeeyyPT5uA-eoA" base_Element="_Ll__UabJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Reference xmi:id="_LmBNcKbJEeeyyPT5uA-eoA" base_Element="_LmAmYabJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Reference xmi:id="_LmB0gKbJEeeyyPT5uA-eoA" base_Element="_LmBNcabJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Reference xmi:id="_LmCbkKbJEeeyyPT5uA-eoA" base_Element="_LmB0gabJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Reference xmi:id="_LmDCoKbJEeeyyPT5uA-eoA" base_Element="_LmCbkabJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Reference xmi:id="_LmDpsKbJEeeyyPT5uA-eoA" base_Element="_LmDCoabJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Reference xmi:id="_LmEQwKbJEeeyyPT5uA-eoA" base_Element="_LmDpsabJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Reference xmi:id="_LmJJQKbJEeeyyPT5uA-eoA" base_Element="_LmIiMKbJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Reference xmi:id="_LmJwUabJEeeyyPT5uA-eoA" base_Element="_LmJwUKbJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Reference xmi:id="_LmK-cKbJEeeyyPT5uA-eoA" base_Element="_LmKXYKbJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Reference xmi:id="_LmLlgKbJEeeyyPT5uA-eoA" base_Element="_LmK-cabJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Reference xmi:id="_LmMMkKbJEeeyyPT5uA-eoA" base_Element="_LmLlgabJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Reference xmi:id="_LmMzoKbJEeeyyPT5uA-eoA" base_Element="_LmMMkabJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Reference xmi:id="_LmNasKbJEeeyyPT5uA-eoA" base_Element="_LmMzoabJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Reference xmi:id="_LmRsIKbJEeeyyPT5uA-eoA" base_Element="_LmRFEKbJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Reference xmi:id="_LmSTMKbJEeeyyPT5uA-eoA" base_Element="_LmRsIabJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Reference xmi:id="_LmVWgKbJEeeyyPT5uA-eoA" base_Element="_LmUIYqbJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Reference xmi:id="_LmV9kKbJEeeyyPT5uA-eoA" base_Element="_LmVWgabJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Reference xmi:id="_LmWkoKbJEeeyyPT5uA-eoA" base_Element="_LmV9kabJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Reference xmi:id="_LmXLsKbJEeeyyPT5uA-eoA" base_Element="_LmWkoabJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Reference xmi:id="_LmXywKbJEeeyyPT5uA-eoA" base_Element="_LmXLsabJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Reference xmi:id="_LmYZ0KbJEeeyyPT5uA-eoA" base_Element="_LmXywabJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Generics xmi:id="_Lma2EKbJEeeyyPT5uA-eoA" genericsValue="?" base_Element="_LmZn8abJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Reference xmi:id="_Lmix4KbJEeeyyPT5uA-eoA" base_Element="_LmiK0KbJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Reference xmi:id="_LmjY8KbJEeeyyPT5uA-eoA" base_Element="_Lmix4abJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Reference xmi:id="_LmkAAKbJEeeyyPT5uA-eoA" base_Element="_LmjY8abJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:StyledElement xmi:id="_LmtxAqbJEeeyyPT5uA-eoA" base_Element="_LmtxAKbJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_LmvmMKbJEeeyyPT5uA-eoA" base_Element="_Lmu_IKbJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Annotations xmi:id="_LmwNQKbJEeeyyPT5uA-eoA" base_Element="_Lmu_IKbJEeeyyPT5uA-eoA">
+    <annotations xmi:id="_LmwNQabJEeeyyPT5uA-eoA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Lmw0UqbJEeeyyPT5uA-eoA" base_Element="_LmwNQqbJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Annotations xmi:id="_LmxbYKbJEeeyyPT5uA-eoA" base_Element="_LmwNQqbJEeeyyPT5uA-eoA">
+    <annotations xmi:id="_LmxbYabJEeeyyPT5uA-eoA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_LmyCcKbJEeeyyPT5uA-eoA" base_Element="_LmxbYqbJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Annotations xmi:id="_LmypgKbJEeeyyPT5uA-eoA" base_Element="_LmxbYqbJEeeyyPT5uA-eoA">
+    <annotations xmi:id="_LmypgabJEeeyyPT5uA-eoA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Lm1s0abJEeeyyPT5uA-eoA" base_Element="_Lm1FwKbJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Annotations xmi:id="_Lm2T4KbJEeeyyPT5uA-eoA" base_Element="_Lm1FwKbJEeeyyPT5uA-eoA">
+    <annotations xmi:id="_Lm2T4abJEeeyyPT5uA-eoA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Lm268qbJEeeyyPT5uA-eoA" base_Element="_Lm2T4qbJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Annotations xmi:id="_Lm3iAKbJEeeyyPT5uA-eoA" base_Element="_Lm2T4qbJEeeyyPT5uA-eoA">
+    <annotations xmi:id="_Lm3iAabJEeeyyPT5uA-eoA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Lm4JEabJEeeyyPT5uA-eoA" base_Element="_Lm3iAqbJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Annotations xmi:id="_Lm4wIKbJEeeyyPT5uA-eoA" base_Element="_Lm3iAqbJEeeyyPT5uA-eoA">
+    <annotations xmi:id="_Lm4wIabJEeeyyPT5uA-eoA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_Lm7MYKbJEeeyyPT5uA-eoA" base_Element="_Lm6lUabJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Reference xmi:id="_LnBTAKbJEeeyyPT5uA-eoA" base_Element="_LnAr8KbJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_LnChJKbJEeeyyPT5uA-eoA" base_Element="_LnChIKbJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Annotations xmi:id="_LnDIMKbJEeeyyPT5uA-eoA" base_Element="_LnChIKbJEeeyyPT5uA-eoA">
+    <annotations xmi:id="_LnDIMabJEeeyyPT5uA-eoA" name="SuppressWarnings">
+      <annotationParameters xmi:id="_LnDIMqbJEeeyyPT5uA-eoA" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_Lnl6wKbJEeeyyPT5uA-eoA" value="&quot;rawtypes&quot;"/>
+      </annotationParameters>
+    </annotations>
+    <annotations xmi:id="_LnDIM6bJEeeyyPT5uA-eoA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_LnEWUKbJEeeyyPT5uA-eoA" base_Element="_LnDvQKbJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Annotations xmi:id="_LnEWUabJEeeyyPT5uA-eoA" base_Element="_LnDvQKbJEeeyyPT5uA-eoA">
+    <annotations xmi:id="_LnEWUqbJEeeyyPT5uA-eoA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_LnIAsKbJEeeyyPT5uA-eoA" base_Element="_LnHZoKbJEeeyyPT5uA-eoA">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_LnInwKbJEeeyyPT5uA-eoA" name="getAppContext" isStatic="true" method="_LnX4UKbJEeeyyPT5uA-eoA">
+      <ownedParameter xmi:id="_LnInwabJEeeyyPT5uA-eoA" type="_Ll21YabJEeeyyPT5uA-eoA" direction="return"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_LnJ14KbJEeeyyPT5uA-eoA" base_Element="_LnJO0qbJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_LnKc8KbJEeeyyPT5uA-eoA" base_Element="_LnJ14abJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_LnLEAKbJEeeyyPT5uA-eoA" base_Element="_LnKc8abJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Annotations xmi:id="_LnLEAabJEeeyyPT5uA-eoA" base_Element="_LnKc8abJEeeyyPT5uA-eoA">
+    <annotations xmi:id="_LnLEAqbJEeeyyPT5uA-eoA" name="SuppressWarnings">
+      <annotationParameters xmi:id="_LnLEA6bJEeeyyPT5uA-eoA" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_LngbMKbJEeeyyPT5uA-eoA" value="&quot;unused&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_LnLrEKbJEeeyyPT5uA-eoA" base_Element="_LnLEBKbJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_LnMSIabJEeeyyPT5uA-eoA" base_Element="_LnMSIKbJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_LnM5MKbJEeeyyPT5uA-eoA" base_Element="_LnMSIqbJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_LnNgQKbJEeeyyPT5uA-eoA" base_Element="_LnM5MabJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_LnOHUKbJEeeyyPT5uA-eoA" base_Element="_LnNgQabJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_LnVcEqbJEeeyyPT5uA-eoA" base_Element="_LnVcEabJEeeyyPT5uA-eoA"/>
+  <uml:OpaqueBehavior xmi:id="_LnX4UKbJEeeyyPT5uA-eoA" name="getAppContext" specification="_LnInwKbJEeeyyPT5uA-eoA">
+    <ownedParameter xmi:id="_LnX4UabJEeeyyPT5uA-eoA" type="_Ll21YabJEeeyyPT5uA-eoA" direction="return"/>
+    <language>java</language>
+    <body>return appContext;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:Reference xmi:id="_LnqMMKbJEeeyyPT5uA-eoA" base_Element="_LnplIKbJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Reference xmi:id="_LnraUKbJEeeyyPT5uA-eoA" base_Element="_LnqzQKbJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Reference xmi:id="_LnsBYKbJEeeyyPT5uA-eoA" base_Element="_LnraUabJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Reference xmi:id="_LnsocKbJEeeyyPT5uA-eoA" base_Element="_LnsBYabJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Reference xmi:id="_LntPgKbJEeeyyPT5uA-eoA" base_Element="_LnsocabJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Reference xmi:id="_LnudoKbJEeeyyPT5uA-eoA" base_Element="_Lnt2kKbJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Reference xmi:id="_LnvEsKbJEeeyyPT5uA-eoA" base_Element="_LnudoabJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Reference xmi:id="_LnvrwKbJEeeyyPT5uA-eoA" base_Element="_LnvEsabJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Reference xmi:id="_LnwS0KbJEeeyyPT5uA-eoA" base_Element="_LnvrwabJEeeyyPT5uA-eoA"/>
+  <UMLLabProfile:Reference xmi:id="_Lnw54KbJEeeyyPT5uA-eoA" base_Element="_LnwS0abJEeeyyPT5uA-eoA"/>
+</xmi:XMI>
