@@ -1,33 +1,29 @@
 package com.storm.url.stream.spring;
 
 import java.io.BufferedReader;
-import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.ObjectOutputStream;
 import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
 import java.net.URL;
-import java.net.URLConnection;
 import java.sql.Timestamp;
 import java.util.Map;
-
 import org.apache.storm.task.OutputCollector;
 import org.apache.storm.task.TopologyContext;
 import org.apache.storm.topology.OutputFieldsDeclarer;
 import org.apache.storm.topology.base.BaseRichBolt;
 import org.apache.storm.tuple.Fields;
 import org.apache.storm.tuple.Tuple;
-import org.json.JSONObject;
-
-import com.fasterxml.jackson.core.JsonParser;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.storm.json.GAPI_MAP;
 
 public class SpringUrlBolt2 extends BaseRichBolt {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private OutputCollector collector;
 	String data;
+	@SuppressWarnings("unused")
 	private ObjectOutputStream oos;
 	private BufferedReader br;
 
@@ -39,60 +35,13 @@ public class SpringUrlBolt2 extends BaseRichBolt {
 			Thread.sleep(1000);
 			url = new URL(tuple.getString(0));
 			System.out.println("Executing Bolt");
-			getUrlData(url);
-			collector.ack(tuple);
-		} catch (InterruptedException | MalformedURLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}finally
-		{
-			
-		}
-			
-			/*
-			HttpURLConnection conn = (HttpURLConnection) url.openConnection();
-
-			if (200 <= conn.getResponseCode() && conn.getResponseCode() <= 299) {
-
-				br = new BufferedReader(new InputStreamReader((conn.getInputStream())));
-				Timestamp timestamp = new Timestamp(System.currentTimeMillis());
-				System.out.println(timestamp);
-				while ((data = br.readLine()) != null) {
-
-					System.out.println(data);
-
-				}
-				
-		*/
-				// JSON writer -- use it later
-		/*		
-				 * ObjectMapper mapper = new ObjectMapper();
-				 * mapper.configure(JsonParser.Feature.ALLOW_COMMENTS, true);
-				 * Timestamp timestamp = new
-				 * Timestamp(System.currentTimeMillis()); Thread.sleep(1000); //
-				 * To fetch url every second GAPI_MAP obj =
-				 * mapper.readValue(conn.getInputStream(), GAPI_MAP.class); oos
-				 * = new ObjectOutputStream(new
-				 * FileOutputStream("c:\\temp\\stock1.txt"));
-				 * oos.writeObject(obj); oos.flush();
-		*/		 
-				// System.out.println(obj.toString() + "," + timestamp);
-				// System.out.println(obj.toString());
-	/*		
-			} else {
-				System.out.println("ResponseCode: " + conn.getResponseCode());
-			}
+			print(getUrlData(url));
 
 		} catch (IOException | InterruptedException e) {
-
 			e.printStackTrace();
 		}
 
-collector.ack(tuple);
-*/
-
-			
-
+		collector.ack(tuple);
 	}
 
 	@Override
@@ -108,7 +57,7 @@ collector.ack(tuple);
 		declarer.declare(new Fields("url"));
 	}
 
-	public void getUrlData(URL Url) {
+	public BufferedReader getUrlData(URL Url) {
 		try {
 
 			HttpURLConnection conn = (HttpURLConnection) Url.openConnection();
@@ -116,7 +65,6 @@ collector.ack(tuple);
 				br = new BufferedReader(new InputStreamReader((conn.getInputStream())));
 				Timestamp timestamp = new Timestamp(System.currentTimeMillis());
 				System.out.println(timestamp);
-				print(br);
 
 			} else {
 				System.out.println("ResponseCode: " + conn.getResponseCode());
@@ -126,6 +74,7 @@ collector.ack(tuple);
 
 			e.printStackTrace();
 		}
+		return br;
 
 	}
 
@@ -137,8 +86,25 @@ collector.ack(tuple);
 
 	}
 
-	// mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES,false);
-	// mapper.configure(JsonParser.Feature.ALLOW_BACKSLASH_ESCAPING_ANY_CHARACTER,true);
-	// mapper.configure(DeserializationConfig.FAIL_ON_UNKNOWN_PROPERTIES,
-	// false);
+	@SuppressWarnings("unused")
+	private void Json_parser() {
+		// JSON writer -- use it later
+		/*
+		 * ObjectMapper mapper = new ObjectMapper();
+		 * mapper.configure(JsonParser.Feature.ALLOW_COMMENTS, true); Timestamp
+		 * timestamp = new Timestamp(System.currentTimeMillis());
+		 * Thread.sleep(1000); // To fetch url every second GAPI_MAP obj =
+		 * mapper.readValue(conn.getInputStream(), GAPI_MAP.class); oos = new
+		 * ObjectOutputStream(new FileOutputStream("c:\\temp\\stock1.txt"));
+		 * oos.writeObject(obj); oos.flush();
+		 */
+		
+		//the following is not required at this moment
+		// mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES,false);
+		// mapper.configure(JsonParser.Feature.ALLOW_BACKSLASH_ESCAPING_ANY_CHARACTER,true);
+		// mapper.configure(DeserializationConfig.FAIL_ON_UNKNOWN_PROPERTIES,
+		// false);
+
+	}
+
 }

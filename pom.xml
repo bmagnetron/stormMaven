@@ -133,6 +133,28 @@
 		</dependency>
 		<!-- JSON -->
 		<!-- https://mvnrepository.com/artifact/org.json/json -->
+
+		<!-- https://mvnrepository.com/artifact/javax.json/javax.json-api -->
+		<dependency>
+			<groupId>javax.json</groupId>
+			<artifactId>javax.json-api</artifactId>
+			<version>1.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.glassfish/javax.json -->
+		<dependency>
+			<groupId>org.glassfish</groupId>
+			<artifactId>javax.json</artifactId>
+			<version>1.0.4</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/javax.json.bind/javax.json.bind-api -->
+		<dependency>
+			<groupId>javax.json.bind</groupId>
+			<artifactId>javax.json.bind-api</artifactId>
+			<version>1.0</version>
+		</dependency>
+
+
+
 		<dependency>
 			<groupId>org.json</groupId>
 			<artifactId>json</artifactId>
@@ -191,8 +213,23 @@
 			<type>pom</type>
 		</dependency>
 
+
+		
+		
 		<!-- lOGGER SLF4J -->
 
+		<!-- 
+			<dependency>
+				<groupId>org.apache.logging.log4j</groupId>
+				<artifactId>log4j-api</artifactId>
+				<version>2.9.1</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.logging.log4j</groupId>
+				<artifactId>log4j-core</artifactId>
+				<version>2.9.1</version>
+			</dependency>
+ -->
 		<!-- lOGGER SLF4J -->
 		<dependency>
 			<groupId>org.slf4j</groupId>
@@ -203,11 +240,7 @@
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
 			<!-- <version>${slf4j.version} </version> -->
-		</dependency>
-		<dependency>
-			<groupId>org.slf4j</groupId>
-			<artifactId>slf4j-log4j12</artifactId>
-			<version>${slf4j.version} </version>
+			<version>${slf4j.version}</version>
 		</dependency>
 
 		<dependency>
@@ -216,8 +249,20 @@
 			<version>${slf4j.version} </version>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/log4j/log4j -->
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
+		</dependency>
 
 
+
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-jcl</artifactId>
+			<version>2.5</version>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -253,7 +298,7 @@
 					</descriptorRefs>
 					<archive>
 						<manifest>
-							<mainClass>com.storm.url.stream.Topology.UrlTopology</mainClass>
+							<mainClass>com.storm.url.stream.spring.UrlTopologyRun</mainClass>
 						</manifest>
 					</archive>
 				</configuration>

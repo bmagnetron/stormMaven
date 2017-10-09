@@ -27,14 +27,17 @@
 	<bean id="LocalCluster" class="org.apache.storm.LocalCluster" />
 	<bean id="Config" class="org.apache.storm.Config" />
 	<bean id="values" class="org.apache.storm.tuple.Values" scope="prototype">
-		<aop:scoped-proxy proxy-target-class="true" />
+		<!-- <aop:scoped-proxy proxy-target-class="true" />  -->
 	</bean>
-
 	<!-- Application Classes -->
-	<bean id="UrlBolt" class="com.storm.url.stream.spring.SpringUrlBolt" />
+	<bean id="UrlBolt" class="com.storm.url.stream.spring.SpringUrlBolt">
+		
+	</bean>
+	
 	<bean id="UrlSpout" class="com.storm.url.stream.spring.SpringUrlSpout" scope="prototype">
 		<property name="values" ref="values"></property>
 		<property name="lt" ref="loadtable"></property>
+		
 	</bean>
 
 	<bean id="url" class="java.lang.String">
@@ -46,6 +49,10 @@
 	</bean>
 	<bean id="spoutbuilder" class="com.storm.url.stream.spring.URLSpoutBuilder" scope="prototype" />
 	<bean id="boltbuilder" class="com.storm.url.stream.spring.URLBoltBuilder" scope="prototype" />
+	<bean id="urlJsonparser" class="com.storm.json.UrlJsonParser" scope="prototype" >
+		<property name="sd" ref="StateDetails"></property>
+	</bean>
+	<bean id="StateDetails" class="com.storm.json.StateDetails" scope="prototype" />
 	
 
 

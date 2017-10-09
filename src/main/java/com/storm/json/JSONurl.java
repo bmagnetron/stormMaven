@@ -25,6 +25,7 @@ public class JSONurl {
     InputStream is = new URL(url).openStream();
     try {
       BufferedReader rd = new BufferedReader(new InputStreamReader(is, Charset.forName("UTF-8")));
+     
       String jsonText = readAll(rd);
       JSONObject json = new JSONObject(jsonText);
       return json;
@@ -34,7 +35,7 @@ public class JSONurl {
   }
 
   public static void main(String[] args) throws IOException, JSONException {
-    JSONObject json = readJsonFromUrl("http://www.moneycontrol.com");
+    JSONObject json = readJsonFromUrl("http://services.groupkt.com/state/get/IND/TN");
     System.out.println(json.toString());
     System.out.println(json.get("id"));
   }
