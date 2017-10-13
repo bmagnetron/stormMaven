@@ -1,0 +1,49 @@
+
+storm jar C:\storm111\LifeRay.jar com.storm.url.stream.spring.UrlTopologyRun
+
+
+
+  at java.lang.Thread.sleep(Native Method)2017-10-13 15:43:09 INFO  SpringUrlBolt:157 -
+
+
+  at com.storm.url.stream.spring.SpringUrlBolt.execute(SpringUrlBolt.java:44)
+  at org.apache.storm.daemon.executor$fn__5030$tuple_action_fn__5032.invoke(executor.clj:729)
+  at org.apache.storm.daemon.executor$mk_task_receiver$fn__4951.invoke(executor.clj:461)
+  at org.apache.storm.disruptor$clojure_handler$reify__4465.onEvent(disruptor.clj:40)
+  at org.apache.storm.utils.DisruptorQueue.consumeBatchToCursor(DisruptorQueue.java:482)
+
+
+
+
+
+
+
+        at java.lang.Thread.sleep(Native Method)2017-10-13 15:43:09 INFO  SpringUrlBolt:157 -
+
+
+        at com.storm.url.stream.spring.SpringUrlBolt.execute(SpringUrlBolt.java:44)
+        at org.apache.storm.daemon.executor$fn__5030$tuple_action_fn__5032.invoke(executor.clj:729)
+        at org.apache.storm.daemon.executor$mk_task_receiver$fn__4951.invoke(executor.clj:461)
+        at org.apache.storm.disruptor$clojure_handler$reify__4465.onEvent(disruptor.clj:40)
+        at org.apache.storm.utils.DisruptorQueue.consumeBatchToCursor(DisruptorQueue.java:482)
+Executing Bolt
+Executing Bolt
+Executing Bolt  at org.apache.storm.utils.DisruptorQueue.consumeBatchWhenAvailable(DisruptorQueue.java:460)
+
+        at org.apache.storm.disruptor$consume_batch_when_available.invoke(disruptor.clj:73)
+        at org.apache.storm.daemon.executor$fn__5030$fn__5043$fn__5096.invoke(executor.clj:848)
+        at org.apache.storm.util$async_loop$fn__557.invoke(util.clj:484)
+        at clojure.lang.AFn.run(AFn.java:22)
+        at java.lang.Thread.run(Thread.java:748)
+
+zookeeper
+2017-10-13 15:46:40,589 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@362] - Exception causing close of session 0x15f151c8e8c0024 due to java.io.IOExcept
+ion: An existing connection was forcibly closed by the remote host
+
+After some time the request is actually getting slow , response is not fast 
+	- check for garabage
+	- check for spout/bolt sleep time
+
+
+override toString method of stringbuilder
+
