@@ -1,0 +1,31 @@
+
+RUN INSTRUCTIONS
+----------------------
+
+storm jar C:\storm111\LifeRay.jar com.storm.url.stream.spring.UrlTopologyRun
+
+UI- TOPOLOGY REGISTRATION
+------------------------------
+The Localcluster does not support topology UI.
+If you really want to see the topology with a single machine, you can build the single node cluster, 
+which you should run one zookeeper, one storm nimbus and one storm ui thread on the same machine. 
+To submit your topology to the cluster you should use StormSubmitter and change your code 
+
+LocalCluster cluster = new LocalCluster(); to following.
+
+if (args != null && args.length > 0) {
+  conf.setNumWorkers(3);
+
+  StormSubmitter.submitTopology(args[0], conf, builder.createTopology());
+}
+else {
+
+  LocalCluster cluster = new LocalCluster();
+  cluster.submitTopology("test", conf, builder.createTopology());
+  Utils.sleep(10000);
+  cluster.killTopology("test");
+  cluster.shutdown();
+}
+The code indicates when you add args, it will send the topology to the cluster, otherwise, it will run it locally.
+
+And make sure you have import StormSubmitter with import backtype.storm.StormSubmitter;
