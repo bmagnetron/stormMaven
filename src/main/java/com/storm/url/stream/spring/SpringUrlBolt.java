@@ -73,6 +73,7 @@ public class SpringUrlBolt extends BaseRichBolt {
 			if (200 <= conn.getResponseCode() && conn.getResponseCode() <= 299) {
 
 				System.out.println(Jsonparser(conn.getInputStream()));
+				System.out.println(conn.getInputStream());
 				
 
 			} else {
